@@ -41,7 +41,11 @@ const Why = () => {
             <p className="text-lg text-muted-foreground">
               <strong>Sans fiche Google My Business optimisée</strong>, vos clients vous ignorent et vos concurrents prennent l'avantage. Gagnez en visibilité, crédibilité et convertissez chaque prospect local.
             </p>
-            <Button variant="hero" size="xl">
+            <Button 
+              variant="hero" 
+              size="xl"
+              onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
+            >
               Nous contacter
             </Button>
           </div>

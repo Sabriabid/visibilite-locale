@@ -62,10 +62,11 @@ const CTA = () => {
                 />
               </div>
               <Button 
-                type="submit" 
+                type="button" 
                 variant="hero" 
                 size="xl" 
                 className="w-full"
+                onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
               >
                 Obtenir mon audit gratuit
               </Button>

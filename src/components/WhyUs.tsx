@@ -58,7 +58,12 @@ const WhyUs = () => {
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Notre agence est née d'une volonté simple : <strong>rendre le digital accessible aux entreprises locales</strong>.
           </p>
-          <Button variant="hero" size="xl" className="mt-6">
+          <Button 
+            variant="hero" 
+            size="xl" 
+            className="mt-6"
+            onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
+          >
             Nous contacter
           </Button>
         </div>

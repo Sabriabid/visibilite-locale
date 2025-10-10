@@ -31,7 +31,11 @@ const Navigation = () => {
                 {item.label}
               </a>
             ))}
-            <Button variant="hero" size="lg">
+            <Button 
+              variant="hero" 
+              size="lg"
+              onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
+            >
               Recevoir mon devis
             </Button>
           </div>
