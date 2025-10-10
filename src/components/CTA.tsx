@@ -11,7 +11,7 @@ const benefits = [
 
 const CTA = () => {
   return (
-    <section className="py-24 relative overflow-hidden">
+    <section id="contact" className="py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-primary via-primary/90 to-accent"></div>
       <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
       

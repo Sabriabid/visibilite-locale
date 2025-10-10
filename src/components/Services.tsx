@@ -7,34 +7,34 @@ import optimizationImage from "@/assets/service-optimization.jpg";
 const services = [
   {
     icon: MapPin,
-    title: "Visibilité Maximale",
-    description: "Positionnez votre entreprise en tête des recherches locales et attirez plus de clients qualifiés.",
+    title: "Optimisation GMB",
+    description: "Création ou optimisation : nous adaptons votre fiche pour séduire Google et améliorer votre visibilité.",
     image: visibilityImage,
   },
   {
     icon: Star,
     title: "Gestion des Avis",
-    description: "Développez votre réputation en ligne avec une stratégie d'avis clients qui convertit.",
+    description: "Nous vous aidons à obtenir de bons avis grâce à notre système de collecte, pour générer des évaluations de 4 à 5 étoiles.",
     image: reviewsImage,
   },
   {
     icon: TrendingUp,
-    title: "Optimisation Continue",
-    description: "Analyses et ajustements réguliers pour maintenir votre avantage concurrentiel.",
+    title: "Veille Concurrentielle",
+    description: "En analysant vos concurrents, nous mettons en place les optimisations qu'ils oublient pour vous positionner en tête.",
     image: optimizationImage,
   },
 ];
 
 const Services = () => {
   return (
-    <section className="py-24 bg-muted/30">
+    <section id="services" className="py-24 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            Nos Services
+            Nos services d'agence de référencement local
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Des solutions complètes pour transformer votre fiche Google My Business en machine à clients
+            Le meilleur retour sur investissement pour votre entreprise
           </p>
         </div>
         

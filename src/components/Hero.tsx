@@ -4,30 +4,26 @@ import heroImage from "@/assets/hero-image.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-background via-background to-muted">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-background via-background to-muted pt-20">
       <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
       
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
-            <div className="flex items-center gap-2 text-sm font-medium text-muted-foreground">
-              <div className="flex items-center gap-1">
-                {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 fill-accent text-accent" />
-                ))}
-              </div>
-              <span>+500 entreprises nous font confiance</span>
+            <div className="inline-block px-4 py-2 bg-primary/10 rounded-full">
+              <span className="text-primary font-semibold">Agence Google My Business</span>
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-              Dominez les résultats{" "}
+              Ne laissez pas vos concurrents{" "}
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Google Maps
-              </span>
+                prendre votre place
+              </span>{" "}
+              sur Google Maps
             </h1>
             
             <p className="text-xl text-muted-foreground max-w-lg">
-              Augmentez votre visibilité locale, attirez plus de clients et boostez vos ventes grâce à une fiche Google My Business optimisée.
+              Nous vous accompagnons dans l'optimisation de votre fiche Google My Business. Notre mission : rendre votre entreprise plus visible localement, attirer de nouveaux clients et renforcer votre crédibilité en ligne.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
