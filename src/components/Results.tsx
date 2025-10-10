@@ -36,10 +36,10 @@ const Results = () => {
       <div className="container mx-auto px-4 relative">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            Des Résultats qui Parlent
+            Résultats Google My Business : +320% de Visibilité en Moyenne
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Nos clients constatent des résultats concrets dès les premières semaines
+            Nos clients constatent des <strong>résultats mesurables</strong> dès les premières semaines : plus de vues, plus d'appels, plus de clients. <strong>Performance prouvée</strong> sur 500+ entreprises locales.
           </p>
         </div>
         
@@ -68,10 +68,10 @@ const Results = () => {
             <CardContent className="p-8">
               <blockquote className="text-center space-y-4">
                 <p className="text-xl italic text-muted-foreground">
-                  "En 3 mois, notre fiche Google My Business est passée de la 15ème à la 1ère position. Les appels ont triplé et notre chiffre d'affaires a augmenté de 45%. Une équipe professionnelle et des résultats exceptionnels !"
+                  "En <strong>3 mois seulement</strong>, notre <strong>fiche Google My Business</strong> est passée de la 15ème à la <strong>1ère position sur Google Maps</strong>. Les appels entrants ont <strong>triplé</strong>, notre trafic en magasin a explosé et notre <strong>chiffre d'affaires local a augmenté de 45%</strong>. Une équipe professionnelle qui maîtrise parfaitement le référencement local et des résultats exceptionnels qui dépassent nos attentes !"
                 </p>
                 <footer className="font-semibold text-foreground">
-                  — Marie L., Gérante de restaurant à Paris
+                  — Marie L., Gérante de restaurant à Paris 11ème
                 </footer>
               </blockquote>
             </CardContent>

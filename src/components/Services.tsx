@@ -7,20 +7,20 @@ import optimizationImage from "@/assets/service-optimization.jpg";
 const services = [
   {
     icon: MapPin,
-    title: "Optimisation GMB",
-    description: "Création ou optimisation : nous adaptons votre fiche pour séduire Google et améliorer votre visibilité.",
+    title: "Création et Optimisation Fiche GMB",
+    description: "Création complète ou optimisation approfondie de votre fiche Google My Business. Nous adaptons chaque élément (catégories, descriptions, photos) pour maximiser votre visibilité dans les recherches locales et sur Google Maps.",
     image: visibilityImage,
   },
   {
     icon: Star,
-    title: "Gestion des Avis",
-    description: "Nous vous aidons à obtenir de bons avis grâce à notre système de collecte, pour générer des évaluations de 4 à 5 étoiles.",
+    title: "Gestion Professionnelle des Avis Clients",
+    description: "Stratégie complète de collecte et gestion des avis Google. Notre système éprouvé génère des évaluations 4-5 étoiles authentiques, répond aux avis négatifs et renforce votre e-réputation locale.",
     image: reviewsImage,
   },
   {
     icon: TrendingUp,
-    title: "Veille Concurrentielle",
-    description: "En analysant vos concurrents, nous mettons en place les optimisations qu'ils oublient pour vous positionner en tête.",
+    title: "Audit et Veille Concurrentielle SEO Local",
+    description: "Analyse détaillée de vos concurrents directs sur Google Maps. Nous identifions leurs faiblesses et déployons les optimisations SEO locales qu'ils négligent pour vous positionner devant eux.",
     image: optimizationImage,
   },
 ];
@@ -31,10 +31,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            Nos services d'agence de référencement local
+            Nos Services d'Optimisation Google My Business
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Le meilleur retour sur investissement pour votre entreprise
+            Une <strong>agence de référencement local</strong> qui vous garantit le meilleur retour sur investissement pour dominer votre secteur géographique
           </p>
         </div>
         

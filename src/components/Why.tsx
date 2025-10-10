@@ -5,23 +5,23 @@ import { TrendingUp, Award, Clock, MessageSquare } from "lucide-react";
 const benefits = [
   {
     icon: TrendingUp,
-    title: "Soyez mis en avant par Google",
-    description: "Google favorise ses propres services : une fiche GMB bien optimisée apparaît plus facilement dans les résultats locaux qu'un site web classique.",
+    title: "Visibilité Immédiate sur Google Maps",
+    description: "Google favorise GMB : apparaissez instantanément dans le Local Pack (les 3 premiers résultats sur Google Maps) et dominez les recherches de type 'près de moi'. Plus visible qu'un site web classique.",
   },
   {
     icon: Award,
-    title: "Atteignez les premières positions",
-    description: "Se positionner en tête des résultats Google est plus simple avec une fiche GMB qu'avec un site internet, pour toucher vos clients rapidement.",
+    title: "Positionnement Rapide en Première Page",
+    description: "Avec une fiche Google My Business optimisée, atteignez la première page Google en quelques semaines seulement. Bien plus rapide et efficace qu'un référencement naturel traditionnel pour capter vos clients locaux.",
   },
   {
     icon: Clock,
-    title: "Facilitez l'accès à vos infos",
-    description: "Une fiche GMB bien renseignée permet à vos clients de trouver vos horaires, coordonnées et services en un clic, sans naviguer sur un site complexe.",
+    title: "Informations Accessibles 24h/24",
+    description: "Horaires d'ouverture, numéro de téléphone cliquable, itinéraire GPS, services proposés : tout est accessible en un clic. Vos clients trouvent ce qu'ils cherchent sans friction, ce qui augmente les conversions.",
   },
   {
     icon: MessageSquare,
-    title: "Engagez facilement vos clients",
-    description: "Grâce aux avis, photos et questions/réponses, vous pouvez interagir avec vos clients, répondre à leurs besoins et améliorer votre réputation locale.",
+    title: "Interaction Client et E-Réputation",
+    description: "Avis clients, photos authentiques, questions/réponses : créez un dialogue direct avec vos prospects. Gérez votre réputation en ligne, rassurez les indécis et transformez les visiteurs en clients fidèles.",
   },
 ];
 
@@ -32,14 +32,14 @@ const Why = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
             <h2 className="text-4xl lg:text-5xl font-bold">
-              Pourquoi avoir une fiche Google My Business ?
+              Pourquoi Optimiser Votre Fiche Google My Business ?
             </h2>
             <p className="text-2xl font-semibold">
-              Google favorise les fiches bien renseignées…{" "}
-              <span className="text-primary">profitez-en !</span>
+              Google favorise ses propres services…{" "}
+              <span className="text-primary">Profitez-en pour dominer votre marché local !</span>
             </p>
             <p className="text-lg text-muted-foreground">
-              <strong>Sans fiche Google My Business optimisée</strong>, vos clients vous ignorent et vos concurrents prennent l'avantage. Gagnez en visibilité, crédibilité et convertissez chaque prospect local.
+              <strong>Sans fiche Google My Business optimisée</strong>, vous êtes invisible pour 93% des consommateurs qui cherchent des services locaux sur Google. Pendant ce temps, vos concurrents captent VOS clients. Une <strong>fiche GMB bien optimisée</strong> vous permet de gagner en <strong>visibilité locale</strong>, en crédibilité et de convertir chaque recherche locale en opportunité commerciale.
             </p>
             <Button 
               variant="hero" 

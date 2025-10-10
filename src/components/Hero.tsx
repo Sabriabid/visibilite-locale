@@ -15,15 +15,12 @@ const Hero = () => {
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
-              Ne laissez pas vos concurrents{" "}
-              <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                prendre votre place
-              </span>{" "}
-              sur Google Maps
+              Agence <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Google My Business</span> : Dominez le{" "}
+              Référencement Local
             </h1>
             
             <p className="text-xl text-muted-foreground max-w-lg">
-              Nous vous accompagnons dans l'optimisation de votre fiche Google My Business. Notre mission : rendre votre entreprise plus visible localement, attirer de nouveaux clients et renforcer votre crédibilité en ligne.
+              Spécialiste de l'<strong>optimisation Google My Business</strong>, nous propulsons votre <strong>visibilité locale</strong> sur Google Maps. Attirez plus de clients locaux, multipliez vos appels et boostez votre chiffre d'affaires grâce à une <strong>fiche GMB optimisée</strong>.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

@@ -4,49 +4,49 @@ import { CheckCircle2 } from "lucide-react";
 
 const pricingPlans = [
   {
-    name: "Création/optimisation de votre fiche GMB",
+    name: "Création & Optimisation Fiche GMB",
     price: "200€",
     period: "unique",
-    description: "On s'occupe de tout pour vous positionner dans les premiers résultats dès les premières semaines.",
+    description: "Prestation complète de création ou refonte totale de votre fiche Google My Business. Positionnement optimal dans les recherches locales dès les premières semaines grâce à notre expertise SEO local.",
     features: [
-      "Audit complet de votre visibilité actuelle",
-      "Création ou optimisation de votre fiche GMB",
-      "Optimisation SEO locale",
-      "Création de contenus optimisés",
-      "Création des fiches produits/services",
-      "Veille concurrentielle",
+      "Audit SEO local approfondi (analyse concurrence + opportunités)",
+      "Création complète ou optimisation avancée fiche GMB",
+      "Optimisation SEO locale (catégories, mots-clés, NAP)",
+      "Rédaction de contenus optimisés pour le référencement",
+      "Création fiches produits/services avec mots-clés ciblés",
+      "Rapport de veille concurrentielle détaillé",
     ],
     highlighted: false,
   },
   {
-    name: "Gestion mensuelle de votre fiche GMB",
+    name: "Gestion Mensuelle GMB",
     price: "65€",
     period: "/mois",
     subtext: "sans engagement",
-    description: "On s'en charge pour vous, chaque semaine. Vous gardez la main sur tout, nous nous occupons du reste.",
+    description: "Gestion hebdomadaire professionnelle de votre présence locale. Nous maintenons et améliorons votre visibilité Google Maps pendant que vous vous concentrez sur votre activité. Arrêt possible à tout moment.",
     features: [
-      "Post hebdomadaire de contenus optimisés",
-      "Gestion et réponse à vos avis clients",
-      "Mise à jour régulière des informations",
-      "Veille concurrentielle mensuelle",
-      "Création/ajustement des fiches produits",
-      "Assistance et conseils personnalisés",
+      "Posts Google My Business hebdomadaires (contenu SEO optimisé)",
+      "Gestion complète des avis Google (réponses personnalisées)",
+      "Mise à jour continue des informations (horaires, services, photos)",
+      "Analyse concurrentielle mensuelle + recommandations",
+      "Optimisation continue des fiches produits/services",
+      "Support prioritaire et conseils stratégiques personnalisés",
     ],
     highlighted: true,
   },
   {
-    name: "Gestion mensuelle avec engagement",
+    name: "Gestion Mensuelle Engagement 6 Mois",
     price: "59€",
     period: "/mois",
-    subtext: "avec engagement 6 mois minimum",
-    description: "La formule la plus rentable pour les entreprises qui veulent bâtir une présence locale durable.",
+    subtext: "engagement 6 mois minimum",
+    description: "Le meilleur rapport qualité-prix pour bâtir une présence locale durable et dominer durablement votre secteur sur Google Maps. Idéal pour les entreprises ambitieuses cherchant une croissance régulière.",
     features: [
-      "Post hebdomadaire de contenus optimisés",
-      "Gestion et réponse à vos avis clients",
-      "Mise à jour régulière des informations",
-      "Veille concurrentielle mensuelle",
-      "Création/ajustement des fiches produits",
-      "Assistance et conseils personnalisés",
+      "Posts Google My Business hebdomadaires (stratégie de contenu long terme)",
+      "Gestion experte des avis clients (réponses + stratégie e-réputation)",
+      "Optimisation continue (informations, photos, offres spéciales)",
+      "Veille concurrentielle approfondie + rapport mensuel détaillé",
+      "Ajustements continus fiches produits/services basés sur performances",
+      "Accompagnement stratégique personnalisé + priorisation",
     ],
     highlighted: false,
   },
@@ -60,10 +60,10 @@ const Pricing = () => {
       <div className="container mx-auto px-4 relative">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            Combien coûte l'optimisation et la gestion d'une fiche Google My Business ?
+            Tarifs Optimisation Google My Business : Transparents et Abordables
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Faites briller votre entreprise sur Google sans exploser votre budget
+            Des <strong>forfaits GMB adaptés</strong> à votre budget : de la création ponctuelle à la <strong>gestion mensuelle complète</strong> de votre référencement local
           </p>
         </div>
 

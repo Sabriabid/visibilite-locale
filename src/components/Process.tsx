@@ -5,26 +5,26 @@ const steps = [
   {
     number: "01",
     icon: Search,
-    title: "Analyse complète de votre fiche et de vos concurrents",
-    description: "Nous passons votre fiche et celle de vos concurrents au crible : informations, catégories, photos, avis.",
+    title: "Audit SEO Local Approfondi",
+    description: "Analyse complète de votre fiche GMB actuelle et audit concurrentiel détaillé : NAP (nom, adresse, téléphone), catégories, mots-clés, photos, avis, performances. Identification des opportunités de référencement local inexploitées.",
   },
   {
     number: "02",
     icon: Settings,
-    title: "Optimisation pour maximiser votre visibilité",
-    description: "Nous mettons à jour toutes les informations, choisissons les bonnes catégories, rédigeons des descriptions convaincantes.",
+    title: "Optimisation Technique et Sémantique",
+    description: "Optimisation avancée de tous les éléments de votre fiche : sélection des catégories principales et secondaires optimales, rédaction SEO des descriptions avec mots-clés locaux, optimisation des attributs, ajout de photos professionnelles géolocalisées.",
   },
   {
     number: "03",
     icon: Star,
-    title: "Renforcez votre crédibilité grâce aux avis",
-    description: "Nous vous aidons à recueillir des avis positifs, à répondre aux questions et commentaires.",
+    title: "Stratégie E-Réputation et Avis Google",
+    description: "Mise en place d'un système de collecte d'avis clients automatisé et éthique. Réponses personnalisées à tous les avis (positifs et négatifs) pour améliorer votre note moyenne et votre taux de conversion. Gestion proactive de votre réputation en ligne.",
   },
   {
     number: "04",
     icon: TrendingUp,
-    title: "Mesurez et améliorez vos performances",
-    description: "Chaque trimestre, nous analysons vos performances locales et fournissons un rapport.",
+    title: "Suivi Performance et Optimisation Continue",
+    description: "Analyse mensuelle des KPIs (vues profil, clics site web, demandes d'itinéraire, appels). Rapport détaillé avec recommandations stratégiques. Ajustements continus basés sur les données pour améliorer constamment votre positionnement local.",
   },
 ];
 
@@ -36,8 +36,11 @@ const Process = () => {
       <div className="container mx-auto px-4 relative">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            Notre processus d'optimisation de fiches Google My Business
+            Méthodologie d'Optimisation GMB en 4 Étapes Clés
           </h2>
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+            Notre <strong>processus éprouvé</strong> d'optimisation Google My Business garantit des résultats rapides et durables. Une approche structurée pour maximiser votre <strong>visibilité locale</strong>.
+          </p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">

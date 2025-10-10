@@ -8,20 +8,28 @@ import { Button } from "@/components/ui/button";
 
 const faqs = [
   {
-    question: "Comment une agence Google My Business peut-elle m'aider ?",
-    answer: "Nous optimisons votre fiche pour maximiser votre visibilité, gérer vos avis clients, publier des actualités et vous aider à convertir plus de prospects en clients.",
+    question: "Pourquoi faire appel à une agence Google My Business plutôt que l'optimiser soi-même ?",
+    answer: "Une agence spécialisée en GMB maîtrise les algorithmes de référencement local Google et connaît les bonnes pratiques qui évoluent constamment. Nous optimisons chaque détail technique (catégories, mots-clés locaux, structure des données, photos géolocalisées) que les non-experts négligent. Résultat : vous gagnez des mois de tâtonnements et atteignez rapidement la première page Google Maps. Notre expertise transforme votre fiche en véritable aimant à clients locaux.",
   },
   {
-    question: "Combien de temps pour voir les résultats de ma fiche Google My Business ?",
-    answer: "Les premiers résultats peuvent apparaître quelques semaines après l'optimisation, mais un suivi régulier et des mises à jour sont essentiels pour maintenir et améliorer votre positionnement.",
+    question: "Combien de temps avant de voir des résultats concrets sur ma visibilité locale ?",
+    answer: "Les premiers résultats apparaissent généralement sous 2-4 semaines après l'optimisation initiale : augmentation des vues de profil, des clics vers votre site et des demandes d'itinéraire. Pour un positionnement stable en première page Google Maps, comptez 2-3 mois d'optimisation continue. Les résultats dépendent de votre secteur, votre zone géographique et l'intensité concurrentielle. Notre suivi mensuel et nos ajustements réguliers garantissent une amélioration constante de votre référencement local.",
   },
   {
-    question: "Pourquoi une fiche GMB est importante pour mon entreprise ?",
-    answer: "Créer une fiche Google pour votre entreprise permet d'améliorer votre visibilité locale sur Google et Google Maps. C'est essentiel pour attirer des clients proches de votre localisation.",
+    question: "Quelle est l'importance réelle d'une fiche Google My Business pour mon entreprise locale ?",
+    answer: "Cruciale : 93% des consommateurs cherchent des services locaux sur Google avant d'acheter. Une fiche GMB optimisée vous fait apparaître dans le Local Pack (les 3 premiers résultats) et sur Google Maps, là où vos clients potentiels cherchent activement. C'est votre vitrine numérique gratuite : horaires, téléphone cliquable, avis clients, photos, itinéraire GPS. Sans fiche optimisée, vous êtes invisible pour la majorité de votre marché local pendant que vos concurrents captent VOS clients.",
   },
   {
-    question: "Combien coûte une création et optimisation de ma fiche ?",
-    answer: "La création et l'optimisation de votre fiche Google My Business sont facturées 200 €, et notre accompagnement mensuel démarre à 59 € selon votre engagement.",
+    question: "Quels sont vos tarifs pour l'optimisation et la gestion d'une fiche GMB ?",
+    answer: "Création/Optimisation complète : 200€ en paiement unique (audit, optimisation technique, contenu SEO, veille concurrentielle). Gestion mensuelle : 65€/mois sans engagement ou 59€/mois avec engagement 6 mois (posts hebdomadaires, gestion avis, optimisation continue, reporting). Des tarifs transparents, sans frais cachés, pour un ROI exceptionnel comparé aux autres canaux d'acquisition client.",
+  },
+  {
+    question: "Comment mesurez-vous les résultats de votre optimisation Google My Business ?",
+    answer: "Nous suivons des KPIs précis via Google Business Profile : nombre de vues du profil, clics vers votre site web, demandes d'itinéraire GPS, appels téléphoniques directs, messages. Chaque mois, vous recevez un rapport détaillé montrant l'évolution de ces métriques, votre positionnement sur vos mots-clés locaux cibles et des recommandations stratégiques. Transparence totale sur l'impact de notre travail sur votre visibilité et vos conversions.",
+  },
+  {
+    question: "Puis-je optimiser ma fiche GMB si j'ai déjà un site web ?",
+    answer: "Absolument, et c'est même recommandé ! Une fiche Google My Business et un site web sont complémentaires. GMB vous donne une visibilité immédiate sur les recherches locales et Google Maps, souvent plus rapide qu'un référencement naturel classique. Votre site web apporte de la crédibilité et des informations détaillées. L'idéal : les deux optimisés et interconnectés. Nous pouvons lier votre fiche GMB à votre site pour créer un écosystème digital cohérent qui maximise votre présence locale.",
   },
 ];
 
@@ -32,13 +40,13 @@ const FAQ = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-              Questions fréquentes sur Google My Business
+              FAQ Google My Business : Vos Questions sur le SEO Local
             </h2>
             <p className="text-xl text-muted-foreground">
-              Tout savoir sur les fiches GMB
+              Tout savoir sur l'<strong>optimisation de votre fiche GMB</strong> et le <strong>référencement local</strong>
             </p>
             <p className="text-muted-foreground mt-4">
-              Vous avez des questions ? Nous avons les réponses ! Consultez notre FAQ pour trouver des informations utiles sur nos services, notre processus et bien plus.
+              Les réponses d'experts à vos questions sur Google My Business, l'optimisation locale et nos prestations. Consultez notre FAQ complète pour comprendre comment dominer les résultats locaux.
             </p>
           </div>
 

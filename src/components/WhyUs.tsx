@@ -5,18 +5,18 @@ import { Heart, Target, Shield, TrendingUp, Users, Award, Clock } from "lucide-r
 const values = [
   {
     icon: Heart,
-    title: "Approche humaine",
-    description: "Nous prenons le temps de vous écouter, de comprendre votre réalité et de parler un langage clair. Pas de jargon technique incompréhensible, juste des échanges constructifs.",
+    title: "Accompagnement Humain et Personnalisé",
+    description: "Nous prenons le temps d'écouter vos objectifs et de comprendre votre marché local. Pas de jargon technique incompréhensible : nous expliquons chaque action SEO dans un langage clair et accessible. Une relation de confiance basée sur l'échange constructif.",
   },
   {
     icon: Target,
-    title: "Engagement pour votre succès",
-    description: "Nous ne livrons pas un service pour ensuite disparaître. On vous accompagne pour que votre projet se réalise comme vous le souhaitez.",
+    title: "Engagement Total pour Vos Résultats",
+    description: "Nous ne livrons pas une fiche optimisée puis disparaissons. Notre accompagnement se poursuit jusqu'à l'atteinte de vos objectifs de visibilité locale. Votre succès sur Google Maps est notre priorité absolue, pas juste une prestation de plus.",
   },
   {
     icon: Shield,
-    title: "Transparence comme maître-mot",
-    description: "Vous recevez une étude détaillée et un devis clair, sans frais cachés, et vous êtes tenu au courant de chaque étape.",
+    title: "Transparence Totale et Reporting Détaillé",
+    description: "Devis détaillé sans frais cachés. Audit initial complet avec recommandations précises. Rapports mensuels de performance avec KPIs clairs (vues, clics, appels). Vous êtes informé de chaque optimisation et de son impact sur votre référencement local.",
   },
 ];
 
@@ -53,10 +53,10 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            Pourquoi confier votre fiche GMB à une agence spécialisée ?
+            Pourquoi Choisir Notre Agence Google My Business ?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Notre agence est née d'une volonté simple : <strong>rendre le digital accessible aux entreprises locales</strong>.
+            Une <strong>agence spécialisée en référencement local</strong> qui rend le SEO local accessible à toutes les entreprises. <strong>+500 fiches GMB optimisées</strong>, +2 ans d'expertise pure en <strong>optimisation Google My Business</strong>.
           </p>
           <Button 
             variant="hero" 
