@@ -60,7 +60,11 @@ const FAQ = () => {
           </Accordion>
 
           <div className="text-center mt-8">
-            <Button variant="outline" size="lg">
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
+            >
               Je ne trouve pas ma réponse
             </Button>
           </div>
