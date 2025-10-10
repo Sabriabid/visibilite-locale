@@ -36,7 +36,11 @@ const Hero = () => {
                 Audit gratuit
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button variant="outline" size="xl">
+              <Button 
+                variant="outline" 
+                size="xl"
+                onClick={() => document.getElementById('results')?.scrollIntoView({ behavior: 'smooth' })}
+              >
                 Voir nos résultats
               </Button>
             </div>
