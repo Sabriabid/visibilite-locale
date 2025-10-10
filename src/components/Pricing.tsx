@@ -110,6 +110,7 @@ const Pricing = () => {
                   variant={plan.highlighted ? "hero" : "outline"}
                   className="w-full"
                   size="lg"
+                  onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
                 >
                   Choisir cette formule
                 </Button>

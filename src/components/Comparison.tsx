@@ -53,7 +53,11 @@ const Comparison = () => {
                 ))}
               </div>
 
-              <Button variant="outline" className="w-full">
+              <Button 
+                variant="outline" 
+                className="w-full"
+                onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
+              >
                 Demander un devis
               </Button>
             </CardContent>
@@ -78,7 +82,11 @@ const Comparison = () => {
                 ))}
               </div>
 
-              <Button variant="hero" className="w-full">
+              <Button 
+                variant="hero" 
+                className="w-full"
+                onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
+              >
                 Demander un devis
               </Button>
             </CardContent>
