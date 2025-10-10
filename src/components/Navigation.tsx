@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,13 +25,23 @@ const Navigation = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8">
             {menuItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
-                {item.label}
-              </a>
+              item.href.startsWith('#') ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.href}
+                  to={item.href}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {item.label}
+                </Link>
+              )
             ))}
             <Button 
               variant="hero" 
@@ -55,14 +66,25 @@ const Navigation = () => {
         {isOpen && (
           <div className="md:hidden py-4 space-y-4 animate-fade-in">
             {menuItems.map((item) => (
-              <a
-                key={item.href}
-                href={item.href}
-                className="block text-muted-foreground hover:text-foreground transition-colors"
-                onClick={() => setIsOpen(false)}
-              >
-                {item.label}
-              </a>
+              item.href.startsWith('#') ? (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className="block text-muted-foreground hover:text-foreground transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.label}
+                </a>
+              ) : (
+                <Link
+                  key={item.href}
+                  to={item.href}
+                  className="block text-muted-foreground hover:text-foreground transition-colors"
+                  onClick={() => setIsOpen(false)}
+                >
+                  {item.label}
+                </Link>
+              )
             ))}
             <Button variant="hero" size="lg" className="w-full">
               Recevoir mon devis
