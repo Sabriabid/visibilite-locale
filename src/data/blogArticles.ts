@@ -15,526 +15,88 @@ export const blogArticles: BlogArticle[] = [
   {
     id: 1,
     title: "Comment Optimiser Votre Fiche Google My Business en 2024 : Guide Complet",
-    excerpt: "Découvrez les stratégies les plus efficaces pour optimiser votre fiche GMB et dominer les recherches locales. Guide étape par étape avec exemples concrets.",
+    excerpt: "Méthode claire et complète pour optimiser votre fiche Google My Business, avec une approche naturelle, sans listes artificielles.",
     content: `
-      <h2>Pourquoi l'Optimisation GMB est Cruciale en 2024</h2>
-      <p>Dans un monde où <strong>93% des consommateurs</strong> utilisent Internet pour trouver des entreprises locales, votre présence sur Google My Business n'est plus optionnelle — c'est vitale. Google My Business reste l'outil le plus puissant pour la visibilité locale. Avec plus de 8 milliards de recherches locales par jour, une fiche GMB optimisée peut transformer votre entreprise.</p>
-      
-      <p>Les statistiques sont éloquentes : les entreprises avec une fiche GMB complète et optimisée reçoivent en moyenne <strong>7 fois plus de clics</strong> que celles qui négligent leur profil. Plus impressionnant encore, 76% des personnes qui effectuent une recherche locale sur leur smartphone visitent l'entreprise dans les 24 heures.</p>
-      
-      <blockquote>
-        <p>"Une fiche Google My Business bien optimisée peut générer plus de trafic qualifié que des milliers d'euros investis en publicité traditionnelle." — Étude BrightLocal 2024</p>
-      </blockquote>
-      
-      <h3>Les 5 Piliers de l'Optimisation GMB</h3>
-      <p>Pour dominer les résultats de recherche locaux, vous devez maîtriser ces cinq piliers fondamentaux. Chacun joue un rôle crucial dans votre visibilité et votre crédibilité.</p>
-      
-      <h4>1. Informations Complètes et Exactes</h4>
-      <p>Votre fiche doit contenir toutes les informations essentielles : nom exact, adresse, téléphone (NAP), site web, horaires d'ouverture. Google favorise les fiches complètes et vérifiées. La cohérence de ces informations à travers tous vos canaux digitaux est primordiale.</p>
-      
-      <p><strong>Checklist des informations essentielles :</strong></p>
-      <ul>
-        <li>Nom officiel de l'entreprise (identique partout)</li>
-        <li>Adresse physique complète et exacte</li>
-        <li>Numéro de téléphone local (pas de numéro surtaxé)</li>
-        <li>URL du site web principal</li>
-        <li>Horaires d'ouverture détaillés (incluant jours fériés)</li>
-        <li>Catégorie principale pertinente</li>
-        <li>Catégories secondaires (maximum 9)</li>
-        <li>Zone de service (si applicable)</li>
-        <li>Description complète (750 caractères maximum)</li>
-      </ul>
-      
-      <p><strong>Astuce Pro :</strong> Utilisez des mots-clés naturellement dans votre description pour améliorer votre référencement. Par exemple : "Restaurant italien à Paris 15ème spécialisé dans les pâtes fraîches maison et la cuisine traditionnelle napolitaine."</p>
-      
-      <h4>2. Photos de Qualité Professionnelle</h4>
-      <p>Les photos représentent 90% de la première impression et influencent directement la décision d'un client potentiel. Les entreprises avec des photos reçoivent <strong>42% de demandes d'itinéraire en plus</strong> et <strong>35% de clics supplémentaires</strong> vers leur site web.</p>
-      
-      <p><strong>Types de photos essentielles :</strong></p>
-      <ul>
-        <li><strong>Logo :</strong> Carré, haute résolution (minimum 720x720px)</li>
-        <li><strong>Photo de couverture :</strong> Format paysage (1024x576px recommandé)</li>
-        <li><strong>Extérieur :</strong> Façade du bâtiment, enseigne, parking</li>
-        <li><strong>Intérieur :</strong> Ambiance, décoration, espaces de vente</li>
-        <li><strong>Produits/Services :</strong> Vos meilleures offres en haute qualité</li>
-        <li><strong>Équipe :</strong> Photos professionnelles de votre personnel</li>
-        <li><strong>Clients :</strong> Avec leur autorisation, montrez l'expérience client</li>
-      </ul>
-      
-      <p><strong>Standards de qualité :</strong></p>
-      <ul>
-        <li>Format : JPG ou PNG</li>
-        <li>Taille : Entre 10 KB et 5 MB</li>
-        <li>Résolution minimale : 720x720px (carré) ou 720x540px (paysage)</li>
-        <li>Qualité : Lumière naturelle, mise au point nette, pas de filtres excessifs</li>
-        <li>Fréquence : Ajoutez 2-3 nouvelles photos par mois</li>
-      </ul>
-      
-      <h4>3. Gestion Active des Avis</h4>
-      <p>Les avis sont le nerf de la guerre du référencement local. Une note moyenne de 4.5+ étoiles avec un volume d'avis régulier peut propulser votre fiche en première position. Répondez à tous les avis, positifs comme négatifs. Cela montre votre engagement client et améliore votre réputation locale.</p>
-      
-      <p><strong>Stratégie de gestion des avis :</strong></p>
-      <ul>
-        <li>Répondez dans les 24-48h maximum</li>
-        <li>Personnalisez chaque réponse (évitez les templates génériques)</li>
-        <li>Remerciez pour les avis positifs avec authenticité</li>
-        <li>Traitez les avis négatifs avec professionnalisme et empathie</li>
-        <li>Proposez des solutions concrètes aux problèmes soulevés</li>
-        <li>Invitez à reprendre contact en privé pour résoudre les litiges</li>
-      </ul>
-      
-      <p><strong>Comment obtenir plus d'avis :</strong></p>
-      <ul>
-        <li>Demandez au bon moment (après une expérience positive)</li>
-        <li>Créez un lien court vers votre fiche GMB</li>
-        <li>Envoyez des emails de suivi post-achat</li>
-        <li>Affichez un QR code en magasin</li>
-        <li>Formez votre équipe à demander des avis naturellement</li>
-      </ul>
-      
-      <h4>4. Publications Régulières</h4>
-      <p>Les publications GMB fonctionnent comme des mini-posts de réseaux sociaux qui apparaissent directement dans votre fiche. Google favorise les fiches actives avec un taux d'engagement élevé.</p>
-      
-      <p><strong>Fréquence optimale :</strong> 2-3 publications par semaine</p>
-      
-      <p><strong>Types de publications performantes :</strong></p>
-      <ul>
-        <li><strong>Offres :</strong> Promotions limitées dans le temps (créent l'urgence)</li>
-        <li><strong>Événements :</strong> Annonces d'événements spéciaux, lancements</li>
-        <li><strong>Actualités :</strong> Nouveautés, arrivages, changements d'horaires</li>
-        <li><strong>Produits :</strong> Mise en avant de produits/services spécifiques</li>
-      </ul>
-      
-      <p><strong>Anatomie d'une publication efficace :</strong></p>
-      <ul>
-        <li>Photo ou vidéo haute qualité (format carré 1:1)</li>
-        <li>Titre accrocheur (30 caractères max)</li>
-        <li>Description claire et concise (100-300 mots)</li>
-        <li>Call-to-action explicite (Réserver, Acheter, En savoir plus)</li>
-        <li>Lien vers une page pertinente de votre site</li>
-      </ul>
-      
-      <h4>5. Utilisation des Fonctionnalités Avancées</h4>
-      <p>Google ajoute régulièrement de nouvelles fonctionnalités à GMB. Les exploiter vous donne un avantage compétitif significatif.</p>
-      
-      <p><strong>Fonctionnalités à activer immédiatement :</strong></p>
-      <ul>
-        <li><strong>Questions/Réponses :</strong> Ajoutez 5-10 FAQ préventives</li>
-        <li><strong>Produits/Services :</strong> Listez votre catalogue complet avec prix et descriptions</li>
-        <li><strong>Menu :</strong> Pour les restaurants, uploadez votre carte</li>
-        <li><strong>Attributs :</strong> Sélectionnez tous les attributs pertinents (WiFi, parking, etc.)</li>
-        <li><strong>Messagerie :</strong> Activez le chat pour répondre en direct</li>
-        <li><strong>Réservation :</strong> Intégrez un système de réservation en ligne</li>
-        <li><strong>Vidéos :</strong> Ajoutez des vidéos de présentation (max 30 secondes)</li>
-      </ul>
-      
-      <h3>Métriques Clés à Surveiller</h3>
-      <p>L'optimisation sans mesure est aveugle. Surveillez ces KPIs chaque semaine pour ajuster votre stratégie.</p>
-      
-      <p><strong>Dashboard GMB Insights :</strong></p>
-      <ul>
-        <li><strong>Vues de recherche :</strong> Combien de fois votre fiche apparaît</li>
-        <li><strong>Vues directes vs découverte :</strong> Recherches de marque vs recherches génériques</li>
-        <li><strong>Actions clients :</strong> Clics vers le site, appels, demandes d'itinéraire</li>
-        <li><strong>Appels téléphoniques :</strong> Volume et timing des appels</li>
-        <li><strong>Messages :</strong> Taux de réponse et temps moyen</li>
-        <li><strong>Réservations :</strong> Si activé, conversions directes</li>
-        <li><strong>Photos :</strong> Vues des photos vs concurrents</li>
-        <li><strong>Avis :</strong> Nouveaux avis, note moyenne, sentiments</li>
-      </ul>
-      
-      <p><strong>Benchmarks de performance :</strong></p>
-      <ul>
-        <li>Taux de clics vers le site : 3-5%</li>
-        <li>Taux de demande d'itinéraire : 5-8%</li>
-        <li>Taux d'appels téléphoniques : 2-4%</li>
-        <li>Ratio découverte/direct : 60/40 idéal</li>
-      </ul>
-      
-      <h3>Erreurs Courantes à Éviter</h3>
-      <p>Ces erreurs peuvent anéantir tous vos efforts d'optimisation :</p>
-      
-      <ul>
-        <li><strong>Informations contradictoires :</strong> NAP différent sur le site vs GMB vs réseaux sociaux</li>
-        <li><strong>Photos de mauvaise qualité :</strong> Floues, mal cadrées, avec filtres excessifs</li>
-        <li><strong>Absence de réponse aux avis :</strong> Surtout les négatifs</li>
-        <li><strong>Publications irrégulières :</strong> Périodes d'inactivité prolongées</li>
-        <li><strong>Catégorie principale inadaptée :</strong> Trop générique ou incorrecte</li>
-        <li><strong>Description bourrée de mots-clés :</strong> Non naturelle</li>
-        <li><strong>Horaires non mis à jour :</strong> Clients frustrés</li>
-        <li><strong>Ignorer les questions/réponses :</strong> Section vide ou négligée</li>
-      </ul>
-      
-      <h3>Plan d'Action sur 30 Jours</h3>
-      <p><strong>Semaine 1 - Fondations :</strong></p>
-      <ul>
-        <li>Vérifier et compléter toutes les informations NAP</li>
-        <li>Choisir la catégorie principale optimale</li>
-        <li>Rédiger une description SEO-friendly</li>
-        <li>Uploader 20+ photos professionnelles</li>
-      </ul>
-      
-      <p><strong>Semaine 2 - Contenu :</strong></p>
-      <ul>
-        <li>Créer 5-10 questions/réponses préventives</li>
-        <li>Ajouter tous les produits/services</li>
-        <li>Publier le premier post</li>
-        <li>Répondre à tous les avis en attente</li>
-      </ul>
-      
-      <p><strong>Semaine 3 - Engagement :</strong></p>
-      <ul>
-        <li>Publier 2-3 nouveaux posts</li>
-        <li>Solliciter 5-10 avis clients</li>
-        <li>Ajouter une vidéo de présentation</li>
-        <li>Activer la messagerie</li>
-      </ul>
-      
-      <p><strong>Semaine 4 - Optimisation :</strong></p>
-      <ul>
-        <li>Analyser les métriques Insights</li>
-        <li>Identifier les points d'amélioration</li>
-        <li>Ajuster la stratégie de contenu</li>
-        <li>Planifier le mois suivant</li>
-      </ul>
-      
-      <h3>Conclusion</h3>
-      <p>L'optimisation GMB est un processus continu qui demande de la régularité et de la stratégie. En suivant ces conseils méthodiquement, vous maximiserez votre visibilité locale et attirerez plus de clients qualifiés. Les résultats sont mesurables dès les premières semaines : augmentation du trafic, plus d'appels, davantage de visites en magasin.</p>
-      
-      <p><strong>Rappelez-vous :</strong> Votre fiche GMB est souvent le premier point de contact avec vos clients potentiels. Traitez-la comme votre meilleure vitrine digitale. Une fiche optimisée ne dort jamais et travaille 24h/24 pour votre entreprise.</p>
-      
-      <p>Besoin d'aide pour optimiser votre fiche GMB ? <strong>Réservez votre audit gratuit</strong> et découvrez comment nous pouvons multiplier votre visibilité locale en quelques semaines.</p>
+      <h2>Pourquoi optimiser Google My Business maintenant</h2>
+      <p>Votre fiche Google My Business est souvent la première interaction entre un prospect et votre entreprise. Elle apparaît avant votre site web sur mobile, dans Google Maps et dans le <strong>Local Pack</strong>. Une fiche précise, active et attrayante génère plus d'appels, plus de demandes d'itinéraire et davantage de visites en magasin. À l'inverse, une fiche incomplète ou inactive disperse l'attention des internautes et laisse le champ libre à vos concurrents locaux.</p>
+
+      <h2>Comprendre le fonctionnement de la fiche</h2>
+      <p>GMB repose sur trois grands leviers: la pertinence (votre fiche correspond-elle exactement à la recherche?), la distance (êtes-vous proche de l'utilisateur?) et la notoriété (signaux de confiance: avis, activités, citations). Vous ne pouvez pas influencer la distance, mais vous pouvez travailler la pertinence via des informations exactes et la notoriété grâce à vos avis et à l'activité régulière de la fiche.</p>
+
+      <h2>Méthode en cinq étapes</h2>
+      <h3>1) Normaliser vos informations</h3>
+      <p>Vérifiez que le <strong>NAP</strong> (Nom, Adresse, Téléphone) et l'URL soient identiques partout: site, réseaux sociaux, annuaires. Une incohérence mine la confiance de Google et des utilisateurs. Ajoutez des horaires détaillés, y compris jours fériés, choisissez une catégorie principale précise et une description naturelle qui reflète votre activité réelle.</p>
+
+      <h3>2) Valoriser par l'image</h3>
+      <p>Les photos déclenchent l'attention et la confiance. Publiez des visuels authentiques de l'extérieur, de l'intérieur, de l'équipe et des produits. Préférez la lumière naturelle, des cadrages nets, des légendes descriptives et renouvelez le contenu visuel tous les mois pour rester actuel.</p>
+
+      <h3>3) Activer les avis comme preuve sociale</h3>
+      <p>Sollicitez des avis après des expériences positives et répondez systématiquement, même aux retours mitigés. Mentionnez le contexte, remerciez, expliquez, proposez une solution. Cette dynamique améliore la confiance, fait remonter votre fiche et rassure les hésitants.</p>
+
+      <h3>4) Publier régulièrement</h3>
+      <p>Les publications nourrissent la pertinence et montrent que l'entreprise est active. Annoncez vos offres, événements, nouveautés, réalisations. Un format simple fonctionne très bien: une image claire, un court texte utile et un appel à l'action orienté résultat.</p>
+
+      <h3>5) Exploiter les fonctionnalités avancées</h3>
+      <p>Activez la messagerie si vous pouvez répondre rapidement, structurez vos services, ajoutez vos produits avec descriptions et prix, et complétez les attributs pertinents (accessibilité, paiement, terrasse, etc.). Ce niveau de détail accélère le choix côté utilisateur et clarifie votre proposition de valeur pour Google.</p>
+
+      <h2>Mesurer et améliorer en continu</h2>
+      <p>Consultez régulièrement <strong>GMB Insights</strong>: recherches, vues, actions (clics, appels, itinéraires). Repérez les requêtes qui déclenchent des vues, renforcez les pages et visuels qui performent, ajustez vos horaires et votre description selon les saisons. L'objectif n'est pas la perfection immédiate, mais une progression hebdomadaire mesurable.</p>
+
+      <h2>Conclusion</h2>
+      <p>Une fiche Google My Business optimisée repose sur la clarté des informations, la qualité des preuves visuelles, l’entretien de la réputation et la régularité des mises à jour. Cette méthode simple, appliquée avec constance, produit des résultats concrets: plus d'appels, plus de visites, plus de clients locaux.</p>
+
+      <p><strong>Besoin d'un accompagnement?</strong> <a href="https://calendly.com/sabriseo19/audit-gmb" target="_blank" rel="noopener noreferrer" style="color: #3b82f6; text-decoration: underline;">Réservez votre audit gratuit</a> pour recevoir un plan d'action personnalisé.</p>
     `,
     author: "Sabri SEO",
-    date: "2024-01-15",
+    date: "2025-10-15",
     readTime: "8 min",
     category: "Optimisation",
     featured: true,
     slug: "optimiser-fiche-google-my-business-2024"
   },
   {
-    id: 2,
-    title: "Les 7 Erreurs Mortelles qui Détruisent Votre Visibilité Google My Business",
-    excerpt: "Identifiez et corrigez les erreurs les plus courantes qui nuisent à votre fiche GMB. Découvrez pourquoi vos concurrents vous dépassent et comment reprendre l'avantage.",
-    content: `
-      <h2>L'Impact Dévastateur des Erreurs GMB sur Votre Business</h2>
-      <p>Une seule erreur sur votre fiche Google My Business peut coûter des <strong>milliers d'euros de chiffre d'affaires perdus</strong> chaque mois. Pire encore, certaines erreurs peuvent faire chuter votre visibilité de 70% en quelques semaines, laissant vos concurrents capturer tous vos clients potentiels.</p>
-      
-      <p>D'après notre expérience avec plus de 500 fiches GMB optimisées, <strong>92% des entreprises</strong> commettent au moins 3 de ces 7 erreurs mortelles. La bonne nouvelle ? Elles sont toutes réversibles si vous agissez rapidement.</p>
-      
-      <blockquote>
-        <p>"J'ai perdu 40% de mon chiffre d'affaires en 2 mois à cause d'horaires mal renseignés sur ma fiche GMB. Personne ne m'appelait plus." — Témoignage d'un commerçant parisien</p>
-      </blockquote>
-      
-      <h3>Erreur #1 : Informations Incohérentes (NAP)</h3>
-      <p>C'est l'erreur la plus courante et la plus dévastatrice. Votre <strong>NAP (Nom, Adresse, Téléphone)</strong> doit être <strong>absolument identique</strong> partout sur Internet : GMB, site web, réseaux sociaux, annuaires, cartes de visite.</p>
-      
-      <p><strong>Pourquoi c'est grave :</strong></p>
-      <ul>
-        <li>Google perd confiance dans vos informations</li>
-        <li>Votre fiche peut être désindexée temporairement</li>
-        <li>Les clients reçoivent des informations contradictoires</li>
-        <li>Votre référencement local s'effondre</li>
-        <li>Les systèmes de navigation GPS ne trouvent pas votre adresse</li>
-      </ul>
-      
-      <p><strong>Exemples d'incohérences fatales :</strong></p>
-      <ul>
-        <li>"Boulangerie Martin" sur GMB vs "Boulangerie Paul Martin" sur le site</li>
-        <li>"15 rue de la Paix" vs "15 Rue de la Paix" (majuscule/minuscule)</li>
-        <li>"01 23 45 67 89" vs "0123456789" (formatage différent)</li>
-        <li>"Paris 75015" vs "75015 Paris" (ordre différent)</li>
-      </ul>
-      
-      <p><strong>Solution immédiate :</strong></p>
-      <ul>
-        <li>Auditez toutes vos présences en ligne</li>
-        <li>Créez un document NAP de référence</li>
-        <li>Corrigez toutes les incohérences en 24-48h</li>
-        <li>Vérifiez chaque trimestre</li>
-        <li>Informez tous vos prestataires du NAP officiel</li>
-      </ul>
-      
-      <h3>Erreur #2 : Catégorie Principale Mal Choisie</h3>
-      <p>La catégorie principale est le signal le plus puissant que vous envoyez à Google. <strong>Une mauvaise catégorie = invisibilité totale</strong> pour vos recherches cibles.</p>
-      
-      <p><strong>Impact réel :</strong></p>
-      <ul>
-        <li>Vous apparaissez pour les mauvaises recherches</li>
-        <li>Vos concurrents directs vous dépassent</li>
-        <li>Votre taux de conversion chute drastiquement</li>
-        <li>Google ne comprend pas votre activité réelle</li>
-      </ul>
-      
-      <p><strong>Erreurs typiques :</strong></p>
-      <ul>
-        <li><strong>Trop générique :</strong> "Restaurant" au lieu de "Restaurant italien"</li>
-        <li><strong>Trop spécifique :</strong> "Restaurant de pâtes fraîches" qui n'existe pas dans Google</li>
-        <li><strong>Hors sujet :</strong> Choisir plusieurs activités dans des catégories différentes</li>
-        <li><strong>Aspirationnel :</strong> Choisir ce que vous voulez être vs ce que vous êtes</li>
-      </ul>
-      
-      <p><strong>Règles d'or pour choisir la bonne catégorie :</strong></p>
-      <ul>
-        <li>Choisissez la catégorie la plus spécifique correspondant à votre activité PRINCIPALE</li>
-        <li>Tapez votre activité dans la recherche GMB et voyez les suggestions</li>
-        <li>Analysez les catégories de vos 3 meilleurs concurrents</li>
-        <li>Testez et ajustez selon les performances</li>
-        <li>Ajoutez jusqu'à 9 catégories secondaires pertinentes</li>
-      </ul>
-      
-      <p><strong>Exemple concret :</strong></p>
-      <p>Vous êtes plombier chauffagiste à Lyon ?</p>
-      <ul>
-        <li>✅ Catégorie principale : "Plombier"</li>
-        <li>✅ Catégories secondaires : "Chauffagiste", "Service de dépannage d'urgence", "Entreprise de plomberie"</li>
-        <li>❌ Catégorie principale : "Entrepreneur" (trop vague)</li>
-      </ul>
-      
-      <h3>Erreur #3 : Absence de Photos Professionnelles</h3>
-      <p>Les fiches sans photos ou avec des photos amateur perdent <strong>70% de leur crédibilité</strong> et <strong>42% de clics</strong> vers l'itinéraire. Dans l'économie visuelle actuelle, c'est suicidaire.</p>
-      
-      <p><strong>Statistiques qui font peur :</strong></p>
-      <ul>
-        <li>Les entreprises avec des photos reçoivent 42% de demandes d'itinéraire en plus</li>
-        <li>35% de clics supplémentaires vers le site web</li>
-        <li>Les clients passent 60% de temps en plus sur les fiches avec photos</li>
-        <li>Une fiche avec 10+ photos performe 5x mieux qu'une avec 0-2 photos</li>
-      </ul>
-      
-      <p><strong>Erreurs photographiques mortelles :</strong></p>
-      <ul>
-        <li>Photos prises avec un smartphone bas de gamme (floues, mal éclairées)</li>
-        <li>Photos de stock generic (clients détectent immédiatement le fake)</li>
-        <li>Photos mal cadrées ou orientées</li>
-        <li>Intérieur sombre et peu accueillant</li>
-        <li>Absence de photos de l'équipe (déshumanisation)</li>
-        <li>Photos datées (clients pensent que vous avez fermé)</li>
-        <li>Watermarks ou logos intrusifs</li>
-      </ul>
-      
-      <p><strong>Budget photo réaliste :</strong></p>
-      <ul>
-        <li><strong>Option économique :</strong> Smartphone récent + lumière naturelle + 2h de shooting = 0€</li>
-        <li><strong>Option intermédiaire :</strong> Photographe amateur/étudiant = 150-300€</li>
-        <li><strong>Option premium :</strong> Photographe professionnel = 500-1000€</li>
-        <li><strong>ROI moyen :</strong> Remboursé en 2-4 semaines via l'augmentation du trafic</li>
-      </ul>
-      
-      <p><strong>Plan photo optimal :</strong></p>
-      <ul>
-        <li>Minimum 20 photos pour commencer</li>
-        <li>Ajouter 2-3 nouvelles photos par mois</li>
-        <li>Couvrir : extérieur, intérieur, produits, équipe, clients satisfaits</li>
-        <li>Formats : carré (1:1) et paysage (16:9)</li>
-        <li>Taille minimale : 720x720px</li>
-      </ul>
-      
-      <h3>Erreur #4 : Horaires Non Mis à Jour</h3>
-      <p>Des horaires erronés = <strong>clients furieux + avis négatifs + réputation détruite</strong>. C'est la garantie d'une catastrophe.</p>
-      
-      <p><strong>Scénario catastrophe (vécu) :</strong></p>
-      <p>Un restaurant affiche "Ouvert" alors qu'il est fermé pour congés. Résultat : 15 clients se déplacent pour rien, 8 avis négatifs en 3 jours, note qui passe de 4.7 à 3.2 étoiles. Récupération : 6 mois de travail acharné.</p>
-      
-      <p><strong>Situations à risque :</strong></p>
-      <ul>
-        <li>Jours fériés non anticipés</li>
-        <li>Congés annuels non renseignés</li>
-        <li>Changements d'horaires saisonniers</li>
-        <li>Horaires spéciaux COVID/événements</li>
-        <li>Heures de fermeture exceptionnelle</li>
-        <li>Horaires différents selon les jours</li>
-      </ul>
-      
-      <p><strong>Protocole horaires infaillible :</strong></p>
-      <ul>
-        <li>Mettez à jour AVANT chaque changement (pas après)</li>
-        <li>Utilisez la fonction "Horaires spéciaux" pour les exceptions</li>
-        <li>Vérifiez vos horaires le 1er de chaque mois</li>
-        <li>Créez un rappel calendrier avant chaque période de fermeture</li>
-        <li>Déléguez cette tâche à une personne de confiance</li>
-        <li>Synchronisez GMB avec votre site web et réseaux sociaux</li>
-      </ul>
-      
-      <h3>Erreur #5 : Ignorer les Avis Négatifs</h3>
-      <p>Ne pas répondre aux avis négatifs, c'est <strong>amplifier le problème par 10</strong>. Les clients potentiels voient votre silence comme une confirmation du problème.</p>
-      
-      <p><strong>Psychologie du non-répondant :</strong></p>
-      <p>Quand vous ne répondez pas à un avis négatif, les clients pensent :</p>
-      <ul>
-        <li>"Ils s'en fichent de leurs clients"</li>
-        <li>"C'est sûrement vrai si ils ne répondent pas"</li>
-        <li>"Ils ont probablement d'autres clients mécontents"</li>
-        <li>"Je vais aller voir ailleurs, c'est plus sûr"</li>
-      </ul>
-      
-      <p><strong>Impact mesuré du silence :</strong></p>
-      <ul>
-        <li>Baisse de 15-25% des nouveaux clients</li>
-        <li>Augmentation de 50% de la probabilité d'autres avis négatifs</li>
-        <li>Chute du taux de conversion de 30-40%</li>
-        <li>Dévalorisation de votre note moyenne perçue</li>
-      </ul>
-      
-      <p><strong>Framework de réponse aux avis négatifs :</strong></p>
-      <ul>
-        <li><strong>Étape 1 - Reconnaissance (24h max) :</strong> "Nous avons bien reçu votre message..."</li>
-        <li><strong>Étape 2 - Empathie :</strong> "Nous comprenons votre déception..."</li>
-        <li><strong>Étape 3 - Explication (sans excuses) :</strong> "Voici ce qui s'est passé..."</li>
-        <li><strong>Étape 4 - Solution :</strong> "Nous vous proposons..."</li>
-        <li><strong>Étape 5 - Contact privé :</strong> "Contactez-nous au... pour résoudre ceci"</li>
-      </ul>
-      
-      <p><strong>Exemple de réponse professionnelle :</strong></p>
-      <blockquote>
-        <p>"Bonjour Sophie, merci d'avoir pris le temps de partager votre expérience. Nous sommes sincèrement désolés que votre visite n'ait pas été à la hauteur de vos attentes. Le temps d'attente que vous avez connu n'est pas acceptable et ne reflète pas nos standards habituels. Nous avons immédiatement mis en place des mesures correctives. Nous aimerions vous offrir une expérience qui reflète vraiment la qualité de notre service. Pourriez-vous nous contacter au 01 23 45 67 89 ? Nous serions ravis de vous recevoir à nouveau. Cordialement, L'équipe [Nom]"</p>
-      </blockquote>
-      
-      <h3>Erreur #6 : Publications Irrégulières ou Inexistantes</h3>
-      <p>Google favorise activement les fiches qui publient régulièrement. Une fiche inactive = <strong>signal de fermeture</strong> pour l'algorithme.</p>
-      
-      <p><strong>Statistiques de l'activité :</strong></p>
-      <ul>
-        <li>Fiches avec publications régulières : +30% de visibilité</li>
-        <li>Boost temporaire de 24-48h après chaque publication</li>
-        <li>Les publications avec offres génèrent 3x plus de clics</li>
-        <li>Durée de vie d'une publication : 7 jours</li>
-      </ul>
-      
-      <p><strong>Calendrier éditorial efficace :</strong></p>
-      <ul>
-        <li><strong>Lundi :</strong> Offre de la semaine / Actualité</li>
-        <li><strong>Mercredi :</strong> Conseil / Contenu éducatif</li>
-        <li><strong>Vendredi :</strong> Produit/Service en vedette</li>
-        <li><strong>Durée :</strong> 15-20 minutes par publication</li>
-      </ul>
-      
-      <p><strong>Outils de planification :</strong></p>
-      <ul>
-        <li>Google Business Profile Manager (intégré)</li>
-        <li>Hootsuite / Buffer (multi-plateformes)</li>
-        <li>Local Viking (spécialisé GMB)</li>
-        <li>Créez un calendrier Google Sheets avec 1 mois d'avance</li>
-      </ul>
-      
-      <h3>Erreur #7 : Ne Pas Utiliser les Attributs</h3>
-      <p>Les attributs sont des micro-signaux qui améliorent votre visibilité pour des recherches ultra-ciblées. Les ignorer, c'est perdre 20-30% de trafic qualifié.</p>
-      
-      <p><strong>Attributs les plus impactants :</strong></p>
-      <ul>
-        <li>✅ WiFi gratuit (recherché par 45% des clients)</li>
-        <li>✅ Accessible aux fauteuils roulants (obligation légale + SEO)</li>
-        <li>✅ Parking disponible (critère décisif pour 60% des clients)</li>
-        <li>✅ Animaux acceptés (niche très engagée)</li>
-        <li>✅ Terrasse extérieure (restaurants/cafés)</li>
-        <li>✅ Paiement sans contact (post-COVID essentiel)</li>
-        <li>✅ Réservation en ligne (génère 3x plus de conversions)</li>
-        <li>✅ Livraison / À emporter (expansion du marché)</li>
-      </ul>
-      
-      <p><strong>Comment maximiser les attributs :</strong></p>
-      <ul>
-        <li>Activez TOUS les attributs véridiques (Google valorise l'exhaustivité)</li>
-        <li>Vérifiez chaque trimestre les nouveaux attributs disponibles</li>
-        <li>Ajoutez des attributs qui vous différencient de la concurrence</li>
-        <li>Testez l'impact de chaque attribut sur vos métriques</li>
-      </ul>
-      
-      <h3>Diagnostic Rapide : Combien d'Erreurs Commettez-Vous ?</h3>
-      <p><strong>Audit express (5 minutes) :</strong></p>
-      <ul>
-        <li>☐ Vos informations NAP sont-elles identiques partout ? (Erreur #1)</li>
-        <li>☐ Votre catégorie principale est-elle ultra-spécifique ? (Erreur #2)</li>
-        <li>☐ Avez-vous 20+ photos professionnelles ? (Erreur #3)</li>
-        <li>☐ Vos horaires sont-ils à jour aujourd'hui ? (Erreur #4)</li>
-        <li>☐ Avez-vous répondu à tous vos avis des 30 derniers jours ? (Erreur #5)</li>
-        <li>☐ Avez-vous publié dans les 7 derniers jours ? (Erreur #6)</li>
-        <li>☐ Avez-vous activé 10+ attributs ? (Erreur #7)</li>
-      </ul>
-      
-      <p><strong>Votre score :</strong></p>
-      <ul>
-        <li><strong>7/7 :</strong> Excellent ! Continuez ainsi</li>
-        <li><strong>5-6/7 :</strong> Bon niveau, quelques ajustements nécessaires</li>
-        <li><strong>3-4/7 :</strong> Attention, vous perdez du trafic chaque jour</li>
-        <li><strong>0-2/7 :</strong> URGENT - Action immédiate requise</li>
-      </ul>
-      
-      <h3>Plan de Correction en 48 Heures</h3>
-      <p><strong>Jour 1 (2 heures) :</strong></p>
-      <ul>
-        <li>Heure 1 : Audit complet et identification des erreurs</li>
-        <li>Heure 2 : Correction NAP + Horaires + Catégories</li>
-      </ul>
-      
-      <p><strong>Jour 2 (2 heures) :</strong></p>
-      <ul>
-        <li>Heure 1 : Upload photos + Activation attributs</li>
-        <li>Heure 2 : Réponse aux avis + Première publication</li>
-      </ul>
-      
-      <h3>Conclusion : Ne Laissez Pas Ces Erreurs Détruire Votre Business</h3>
-      <p>Chaque jour où ces erreurs persistent, vous perdez des clients au profit de vos concurrents. La bonne nouvelle ? <strong>Toutes ces erreurs sont corrigibles en moins de 48 heures</strong> avec la bonne méthode.</p>
-      
-      <p>Les entreprises qui corrigent ces 7 erreurs voient en moyenne :</p>
-      <ul>
-        <li>+250% de vues de profil en 30 jours</li>
-        <li>+180% d'appels téléphoniques</li>
-        <li>+150% de demandes d'itinéraire</li>
-        <li>+45% de chiffre d'affaires local</li>
-      </ul>
-      
-      <p><strong>Besoin d'un diagnostic professionnel ?</strong> Réservez votre audit GMB gratuit et recevez un plan d'action personnalisé pour corriger toutes ces erreurs en 48h chrono.</p>
-    `,
-    author: "Sabri SEO",
-    date: "2024-01-10",
-    readTime: "6 min",
-    category: "Erreurs",
-    featured: true,
-    slug: "7-erreurs-mortelles-google-my-business"
-  },
-  {
     id: 3,
     title: "Stratégie de Contenu GMB : Comment Créer des Publications qui Convertissent",
-    excerpt: "Apprenez à créer du contenu engageant pour vos publications GMB. Découvrez les types de contenu qui génèrent le plus d'interactions et de conversions.",
+    excerpt: "Découvrez comment créer une stratégie de contenu efficace pour vos publications Google My Business qui génère plus d'engagement et de conversions.",
     content: `
-      <h2>L'Importance du Contenu dans GMB</h2>
-      <p>Les publications GMB sont votre vitrine digitale. Un contenu bien pensé peut doubler vos interactions et améliorer significativement votre visibilité locale.</p>
-      
-      <h3>Types de Contenu Performants</h3>
-      
-      <h4>1. Offres et Promotions</h4>
-      <p>Les offres limitées dans le temps génèrent l'urgence et stimulent l'action. Utilisez des visuels attractifs et des call-to-action clairs.</p>
-      
-      <h4>2. Contenu Éducatif</h4>
-      <p>Partagez vos conseils d'expert pour établir votre autorité. Les "Comment faire" et "Conseils" sont très appréciés.</p>
-      
-      <h4>3. Témoignages Clients</h4>
-      <p>Les témoignages authentiques renforcent la confiance. Demandez l'autorisation avant de publier et mentionnez toujours le client.</p>
-      
-      <h4>4. Événements et Actualités</h4>
-      <p>Annoncez vos événements, nouveautés, arrivages. Cela maintient votre fiche dynamique et intéressante.</p>
-      
-      <h3>Structure d'une Publication Optimisée</h3>
-      <p><strong>Titre accrocheur :</strong> Maximum 30 caractères, actionnable<br>
-      <strong>Description :</strong> 150-300 mots, valeur ajoutée<br>
-      <strong>Call-to-action :</strong> Clair et direct<br>
-      <strong>Visuel :</strong> Haute qualité, format carré recommandé</p>
-      
-      <h3>Calendrier de Publication Optimal</h3>
-      <p>Publiez 2-3 fois par semaine aux heures de pointe : mardi-jeudi entre 10h-14h et 17h-19h. Évitez les weekends pour la plupart des secteurs.</p>
-      
-      <h3>Mesurer l'Impact de Vos Publications</h3>
-      <p>Surveillez les vues, clics, interactions et conversions générées par chaque publication. Adaptez votre stratégie selon les performances.</p>
-      
-      <h3>Erreurs à Éviter</h3>
-      <p>Évitez le contenu générique, les publications trop commerciales, les visuels de mauvaise qualité et les textes trop longs.</p>
-      
-      <h3>Outils Recommandés</h3>
-      <p>Utilisez des outils comme Canva pour les visuels, des calendriers éditoriaux pour la planification, et analysez vos performances régulièrement.</p>
+      <h2>Pourquoi le contenu GMB transforme votre visibilité locale</h2>
+      <p>Vos publications Google My Business ne sont pas de simples annonces. Elles constituent votre voix digitale directe avec vos clients potentiels. Chaque publication bien pensée peut déclencher des appels, des visites en magasin et des conversions immédiates. Contrairement aux réseaux sociaux traditionnels, le contenu GMB apparaît directement dans les résultats de recherche locale, créant un pont naturel entre votre entreprise et les internautes qui cherchent vos services.</p>
+
+      <h2>Comprendre l'algorithme des publications GMB</h2>
+      <p>Google favorise les fiches actives et engageantes. Vos publications signalent à l'algorithme que votre entreprise est vivante, réactive et pertinente. Plus vous publiez régulièrement du contenu utile, plus Google vous fait confiance et vous positionne en avant dans les résultats locaux. La fréquence idéale se situe entre deux et trois publications par semaine, avec un contenu qui apporte une vraie valeur à vos prospects.</p>
+
+      <h2>Les quatre piliers du contenu performant</h2>
+      <h3>1) Contenu informatif et éducatif</h3>
+      <p>Partagez vos connaissances d'expert de manière accessible. Expliquez les tendances de votre secteur, donnez des conseils pratiques, révélez les erreurs courantes à éviter. Ce type de contenu établit votre crédibilité et attire naturellement les clients qui recherchent des professionnels compétents. Par exemple, un plombier peut expliquer comment détecter une fuite, un restaurant peut partager ses secrets culinaires, un coiffeur peut donner des conseils d'entretien.</p>
+
+      <h3>2) Offres et promotions stratégiques</h3>
+      <p>Créez l'urgence avec des offres limitées dans le temps. Annoncez vos promotions saisonnières, vos nouveaux services, vos tarifs préférentiels pour les nouveaux clients. L'important est de proposer une vraie valeur ajoutée, pas seulement de la publicité. Une offre bien présentée peut générer trois fois plus d'interactions qu'une publication classique.</p>
+
+      <h3>3) Témoignages et réalisations</h3>
+      <p>Montrez vos réussites concrètes. Partagez les témoignages clients avec leur autorisation, présentez vos dernières réalisations, célébrez vos succès. Les clients potentiels veulent voir des preuves de votre expertise et de la satisfaction de vos clients existants. Ces publications renforcent la confiance et accélèrent la décision d'achat.</p>
+
+      <h3>4) Actualités et événements</h3>
+      <p>Annoncez vos nouveautés, vos événements spéciaux, vos changements d'horaires, vos arrivages. Gardez vos clients informés de l'évolution de votre entreprise. Cette transparence crée un lien fort et montre que vous êtes une entreprise dynamique qui évolue avec ses clients.</p>
+
+      <h2>Structure optimale d'une publication</h2>
+      <p>Commencez par un titre accrocheur qui résume la valeur de votre message en moins de trente caractères. Votre description doit être claire, utile et orientée action. Ajoutez toujours un appel à l'action précis : "Réservez maintenant", "Appelez pour plus d'informations", "Visitez notre magasin". Choisissez une image de qualité qui illustre parfaitement votre message. Le format carré fonctionne mieux sur mobile.</p>
+
+      <h2>Timing et fréquence optimaux</h2>
+      <p>Publiez aux heures où vos clients sont le plus actifs : mardi et jeudi entre 10h et 14h, puis entre 17h et 19h. Évitez les weekends pour la plupart des secteurs, sauf si vous êtes dans l'hôtellerie ou la restauration. La régularité compte plus que la fréquence excessive. Mieux vaut deux publications de qualité par semaine qu'une publication quotidienne médiocre.</p>
+
+      <h2>Mesurer et optimiser vos performances</h2>
+      <p>Analysez régulièrement les métriques de vos publications : vues, clics, interactions. Identifiez quels types de contenu génèrent le plus d'engagement. Adaptez votre stratégie selon les retours. Les publications qui performent le mieux sont celles qui répondent directement aux besoins et aux questions de vos clients potentiels.</p>
+
+      <h2>Erreurs courantes à éviter</h2>
+      <p>Évitez le contenu générique qui pourrait s'appliquer à n'importe quelle entreprise. Ne publiez pas uniquement des promotions agressives. Respectez la qualité de vos visuels : des images floues ou mal cadrées nuisent à votre crédibilité. Ne négligez pas la cohérence de votre message avec votre identité de marque.</p>
+
+      <h2>Conclusion</h2>
+      <p>Une stratégie de contenu GMB efficace transforme votre fiche en un véritable canal de communication avec vos clients. En publiant régulièrement du contenu utile et engageant, vous renforcez votre visibilité locale, établissez votre expertise et générez plus de conversions. L'investissement en temps est minime comparé aux résultats obtenus.</p>
+
+      <p><strong>Besoin d'aide pour développer votre stratégie de contenu ?</strong> <a href="https://calendly.com/sabriseo19/audit-gmb" target="_blank" rel="noopener noreferrer" style="color: #3b82f6; text-decoration: underline;">Réservez votre audit gratuit</a> et recevez un plan éditorial personnalisé pour votre secteur.</p>
     `,
     author: "Sabri SEO",
-    date: "2024-01-05",
+    date: "2025-10-05",
     readTime: "7 min",
     category: "Contenu",
     featured: false,
@@ -543,50 +105,55 @@ export const blogArticles: BlogArticle[] = [
   {
     id: 4,
     title: "Gestion des Avis Google My Business : Stratégie Complète pour Améliorer Votre Réputation",
-    excerpt: "Maîtrisez l'art de la gestion des avis GMB. Découvrez comment obtenir plus d'avis positifs, répondre aux critiques et transformer votre réputation en avantage concurrentiel.",
+    excerpt: "Maîtrisez l'art de la gestion des avis GMB pour transformer votre réputation en avantage concurrentiel et attirer plus de clients.",
     content: `
-      <h2>L'Impact des Avis sur Votre Business Local</h2>
-      <p>88% des consommateurs font confiance aux avis en ligne autant qu'aux recommandations personnelles. Une gestion stratégique des avis peut transformer votre entreprise.</p>
-      
-      <h3>Pourquoi les Avis sont Cruciaux</h3>
-      <p>Les avis influencent directement : votre position dans les résultats Google, la décision d'achat des clients, votre crédibilité locale, et votre réputation digitale.</p>
-      
-      <h3>Stratégie pour Obtenir Plus d'Avis Positifs</h3>
-      
-      <h4>1. Timing Optimal</h4>
-      <p>Demandez un avis immédiatement après une expérience positive : livraison réussie, service satisfaisant, problème résolu.</p>
-      
-      <h4>2. Processus Simplifié</h4>
-      <p>Créez un lien direct vers votre fiche GMB. Envoyez-le par SMS ou email avec des instructions claires.</p>
-      
-      <h4>3. Formation de l'Équipe</h4>
-      <p>Formez votre équipe à demander poliment des avis sans être insistante. La qualité du service reste la priorité.</p>
-      
-      <h4>4. Suivi Personnalisé</h4>
-      <p>Personnalisez vos demandes d'avis. Mentionnez des détails spécifiques de l'interaction pour montrer votre attention.</p>
-      
-      <h3>Répondre aux Avis Négatifs</h3>
-      
-      <h4>Stratégie de Réponse</h4>
-      <p><strong>Reconnaissez :</strong> Le problème soulevé par le client<br>
-      <strong>Excusez-vous :</strong> De manière sincère et professionnelle<br>
-      <strong>Proposez :</strong> Une solution concrète<br>
-      <strong>Invitez :</strong> À reprendre contact en privé</p>
-      
-      <h4>Exemple de Réponse Professionnelle</h4>
-      <p>"Nous sommes désolés que votre expérience n'ait pas été à la hauteur de vos attentes. Votre satisfaction est notre priorité. Nous aimerions discuter de votre situation en privé pour trouver une solution. Merci de nous contacter au [numéro]."</p>
-      
-      <h3>Gérer les Avis Faux ou Malveillants</h3>
-      <p>Signalez les avis qui violent les politiques Google : faux avis, avis de concurrents, avis non liés à l'expérience client.</p>
-      
-      <h3>Mesurer l'Impact de Votre Stratégie</h3>
-      <p>Surveillez : le nombre d'avis, la note moyenne, les réponses aux avis négatifs, et l'évolution de votre position dans les résultats.</p>
-      
-      <h3>Outils et Automatisation</h3>
-      <p>Utilisez des outils comme Google Alerts, des templates de réponses, et des systèmes de suivi pour automatiser une partie du processus.</p>
+      <h2>L'impact décisif des avis sur votre business local</h2>
+      <p>Les avis Google My Business ne sont pas de simples commentaires. Ils constituent votre réputation digitale et influencent directement la décision d'achat de vos clients potentiels. Plus de 88% des consommateurs consultent les avis avant de choisir une entreprise locale. Un mauvais avis peut faire fuir des dizaines de clients, tandis qu'un bon avis peut générer des conversions immédiates. La gestion stratégique de vos avis transforme votre réputation en véritable levier de croissance.</p>
+
+      <h2>Pourquoi les avis sont cruciaux pour votre visibilité</h2>
+      <p>Google utilise les avis comme signal de confiance pour classer votre fiche dans les résultats locaux. Plus vous avez d'avis positifs récents, plus Google vous fait confiance et vous positionne en avant. Les avis influencent également directement le comportement des consommateurs : ils lisent en moyenne 10 avis avant de prendre une décision. Une note moyenne élevée avec un volume d'avis régulier peut multiplier par trois votre visibilité locale.</p>
+
+      <h2>Stratégie pour obtenir plus d'avis positifs</h2>
+      <h3>1) Timing optimal pour demander des avis</h3>
+      <p>Demandez un avis immédiatement après une expérience positive réussie : livraison terminée, service satisfaisant, problème résolu avec succès. Le moment idéal est quand votre client est encore sous l'effet de la satisfaction. Attendre trop longtemps diminue les chances d'obtenir un avis positif et détaillé.</p>
+
+      <h3>2) Processus simplifié et accessible</h3>
+      <p>Créez un lien direct vers votre fiche GMB et envoyez-le par SMS ou email avec des instructions claires. Expliquez simplement comment laisser un avis : "Cliquez sur le lien, donnez-nous vos étoiles et partagez votre expérience". Plus le processus est simple, plus vous aurez d'avis.</p>
+
+      <h3>3) Formation de votre équipe</h3>
+      <p>Formez votre équipe à demander poliment des avis sans être insistante. La qualité du service reste la priorité absolue. Un bon service naturellement suivi d'une demande d'avis respectueuse génère les meilleurs retours. Évitez les demandes répétitives ou agressives qui peuvent nuire à votre image.</p>
+
+      <h3>4) Personnalisation des demandes</h3>
+      <p>Personnalisez vos demandes d'avis en mentionnant des détails spécifiques de l'interaction. Montrez que vous vous souvenez de votre client et de son expérience. Cette attention personnalisée augmente significativement le taux de réponse et la qualité des avis.</p>
+
+      <h2>Répondre aux avis négatifs avec professionnalisme</h2>
+      <p>Ne jamais ignorer un avis négatif. Votre silence confirme aux autres clients que le problème soulevé est réel. Répondez systématiquement dans les 24 heures avec professionnalisme et empathie. Une réponse bien formulée peut retourner la perception de l'utilisateur et améliorer votre image auprès des autres clients.</p>
+
+      <h3>Structure d'une réponse efficace</h3>
+      <p>Commencez par reconnaître le problème soulevé par le client. Excusez-vous sincèrement sans vous justifier excessivement. Proposez une solution concrète ou une compensation. Invitez le client à reprendre contact en privé pour résoudre le problème. Terminez par un engagement d'amélioration.</p>
+
+      <h3>Exemple de réponse professionnelle</h3>
+      <p>"Bonjour [Nom], merci d'avoir partagé votre expérience. Nous sommes sincèrement désolés que votre visite n'ait pas été à la hauteur de vos attentes. Votre satisfaction est notre priorité absolue. Nous aimerions discuter de votre situation en privé pour trouver une solution qui vous convienne. Merci de nous contacter au [numéro] ou par email. Nous nous engageons à améliorer nos services pour éviter ce type de situation à l'avenir."</p>
+
+      <h2>Gérer les avis faux ou malveillants</h2>
+      <p>Signalez immédiatement les avis qui violent les politiques Google : faux avis de concurrents, avis non liés à l'expérience client, avis avec contenu inapproprié. Google examine ces signalements et peut supprimer les avis non conformes. Documentez toujours vos signalements et gardez des preuves des violations.</p>
+
+      <h2>Mesurer l'impact de votre stratégie d'avis</h2>
+      <p>Surveillez régulièrement plusieurs métriques clés : le nombre total d'avis, votre note moyenne, le taux de réponse aux avis négatifs, l'évolution de votre position dans les résultats Google. Analysez les tendances sur plusieurs mois pour identifier les améliorations nécessaires. Les entreprises avec une gestion active des avis voient leur visibilité locale augmenter de 40% en moyenne.</p>
+
+      <h2>Outils et automatisation pour optimiser votre gestion</h2>
+      <p>Utilisez des outils comme Google Alerts pour être notifié des nouveaux avis. Créez des templates de réponses personnalisables pour gagner du temps. Mettez en place un système de suivi pour ne jamais oublier de répondre. Automatisez les demandes d'avis après des interactions positives tout en gardant une approche humaine.</p>
+
+      <h2>Erreurs courantes à éviter</h2>
+      <p>Ne répondez jamais de manière agressive ou défensive aux avis négatifs. Évitez les réponses génériques qui ne montrent pas d'attention personnelle. Ne demandez pas d'avis de manière répétitive ou insistante. Ne négligez pas les avis neutres qui peuvent être transformés en avis positifs avec une réponse appropriée.</p>
+
+      <h2>Conclusion</h2>
+      <p>La gestion stratégique des avis GMB transforme votre réputation en véritable avantage concurrentiel. En obtenant régulièrement des avis positifs et en répondant professionnellement aux critiques, vous renforcez la confiance de vos clients potentiels et améliorez votre visibilité locale. Cette approche méthodique génère des résultats mesurables et durables.</p>
+
+      <p><strong>Besoin d'aide pour optimiser votre gestion d'avis ?</strong> <a href="https://calendly.com/sabriseo19/audit-gmb" target="_blank" rel="noopener noreferrer" style="color: #3b82f6; text-decoration: underline;">Réservez votre audit gratuit</a> et recevez une stratégie personnalisée pour transformer vos avis en levier de croissance.</p>
     `,
     author: "Sabri SEO",
-    date: "2024-01-01",
+    date: "2025-10-01",
     readTime: "9 min",
     category: "Avis",
     featured: false,
@@ -595,67 +162,201 @@ export const blogArticles: BlogArticle[] = [
   {
     id: 5,
     title: "Google My Business vs Site Web : Quelle Stratégie pour Dominer le Référencement Local ?",
-    excerpt: "Comparez l'efficacité GMB vs site web pour le SEO local. Découvrez comment combiner les deux stratégies pour maximiser votre visibilité et vos conversions.",
+    excerpt: "Découvrez comment combiner efficacement Google My Business et votre site web pour maximiser votre visibilité locale et vos conversions.",
     content: `
-      <h2>Le Débat : GMB ou Site Web pour le SEO Local ?</h2>
-      <p>La question divise les experts SEO : faut-il privilégier l'optimisation GMB ou investir dans un site web performant ? La réponse : les deux, mais avec une stratégie coordonnée.</p>
+      <h2>Le dilemme stratégique : GMB ou site web pour le SEO local ?</h2>
+      <p>Cette question fondamentale divise encore de nombreux professionnels du marketing digital. Faut-il privilégier l'optimisation de votre fiche Google My Business ou investir massivement dans un site web performant ? La réponse optimale réside dans une approche complémentaire et coordonnée. Chaque canal apporte ses propres avantages et répond à des besoins spécifiques de vos clients potentiels.</p>
       
-      <h3>Avantages de Google My Business</h3>
+      <h2>Les avantages uniques de Google My Business</h2>
+      <h3>Visibilité immédiate dans les recherches locales</h3>
+      <p>GMB apparaît directement dans les résultats de recherche locale, souvent avant même les sites web. Google favorise naturellement ses propres services pour les recherches géolocalisées. Votre fiche peut dominer le "Local Pack" et Google Maps avec une optimisation appropriée, capturant ainsi une part importante du trafic local sans que les utilisateurs aient besoin de visiter votre site.</p>
       
-      <h4>Visibilité Immédiate</h4>
-      <p>GMB apparaît directement dans les résultats locaux, souvent avant les sites web. Google favorise ses propres services pour les recherches locales.</p>
+      <h3>Simplicité d'optimisation et rapidité des résultats</h3>
+      <p>Une fiche GMB bien optimisée peut surpasser un site web complexe en quelques semaines seulement. L'investissement en temps et en ressources est considérablement moindre pour des résultats rapides et mesurables. Vous pouvez commencer à voir des améliorations significatives dès les premières semaines d'optimisation.</p>
       
-      <h4>Simplicité d'Optimisation</h4>
-      <p>Une fiche GMB bien optimisée peut surpasser un site web complexe en quelques semaines. L'investissement est moindre pour des résultats rapides.</p>
+      <h3>Fonctionnalités intégrées et optimisées</h3>
+      <p>Réservation en ligne, messagerie directe, gestion des avis, galerie photos, horaires d'ouverture : tout est centralisé et optimisé spécifiquement pour les recherches locales. Ces fonctionnalités sont conçues pour convertir directement les prospects en clients sans friction supplémentaire.</p>
       
-      <h4>Fonctionnalités Intégrées</h4>
-      <p>Réservation, messagerie, avis, photos, horaires : tout est centralisé et optimisé pour les recherches locales.</p>
+      <h2>Les forces complémentaires d'un site web optimisé</h2>
+      <h3>Contrôle total de votre présence digitale</h3>
+      <p>Vous maîtrisez entièrement le contenu, le design, les fonctionnalités et la stratégie SEO de votre site web. Cette liberté vous permet de créer une expérience utilisateur parfaitement adaptée à votre marque et à vos objectifs commerciaux spécifiques.</p>
       
-      <h3>Avantages d'un Site Web Optimisé</h3>
-      
-      <h4>Contrôle Total</h4>
-      <p>Vous contrôlez entièrement le contenu, le design, les fonctionnalités et la stratégie SEO de votre site web.</p>
-      
-      <h4>Contenu Illimité</h4>
-      <p>Un site web permet de créer du contenu approfondi, des landing pages spécifiques et une stratégie de contenu complète.</p>
-      
-      <h4>Analytics Avancés</h4>
-      <p>Google Analytics offre des insights détaillés sur le comportement des visiteurs, les conversions et l'optimisation.</p>
-      
-      <h3>Stratégie Gagnante : Combiner GMB + Site Web</h3>
-      
-      <h4>1. Cohérence des Informations</h4>
-      <p>Assurez-vous que NAP (Nom, Adresse, Téléphone) soit identique sur GMB et site web. Les incohérences nuisent aux deux.</p>
-      
-      <h4>2. Stratégie de Contenu Coordonnée</h4>
-      <p>Créez du contenu complémentaire : articles de blog sur le site, publications courtes sur GMB, liens croisés entre les deux.</p>
-      
-      <h4>3. Optimisation Technique</h4>
-      <p>Optimisez votre site pour les recherches locales : schema markup, Google Business Profile, optimisation mobile.</p>
-      
-      <h4>4. Mesure des Performances</h4>
-      <p>Surveillez les métriques des deux canaux : vues GMB, trafic site web, conversions, et ROI global.</p>
-      
-      <h3>Quand Privilégier GMB</h3>
-      <p>Si vous avez un budget limité, une activité très locale, ou besoin de résultats rapides, concentrez-vous d'abord sur GMB.</p>
-      
-      <h3>Quand Privilégier le Site Web</h3>
-      <p>Si vous visez un marché plus large, avez besoin de fonctionnalités complexes, ou vendez en ligne, investissez dans un site web optimisé.</p>
-      
-      <h3>Conclusion : L'Approche Hybride</h3>
-      <p>La stratégie optimale combine les deux : GMB pour la visibilité locale immédiate, site web pour la crédibilité et les conversions approfondies. L'investissement dans les deux maximise votre ROI.</p>
-      
-      <h3>Plan d'Investissement Recommandé</h3>
-      <p>Commencez par optimiser votre GMB (ROI rapide), puis investissez progressivement dans un site web optimisé pour le long terme.</p>
+      <h3>Contenu illimité et stratégie approfondie</h3>
+      <p>Un site web permet de développer une stratégie de contenu complète avec des articles de blog, des landing pages spécifiques, des guides détaillés et des ressources approfondies. Cette richesse de contenu établit votre autorité dans votre domaine et améliore votre référencement global.</p>
+
+      <h3>Analytics avancés et insights détaillés</h3>
+      <p>Google Analytics offre des insights détaillés sur le comportement des visiteurs, les parcours de conversion, les sources de trafic et les performances par page. Ces données précieuses vous permettent d'optimiser continuellement votre stratégie digitale.</p>
+
+      <h2>Stratégie gagnante : l'approche hybride coordonnée</h2>
+      <h3>1) Cohérence parfaite des informations</h3>
+      <p>Assurez-vous que votre NAP (Nom, Adresse, Téléphone) soit absolument identique sur GMB, site web, réseaux sociaux et annuaires. Les incohérences nuisent gravement à la confiance de Google et des utilisateurs. Cette harmonisation est la base de toute stratégie locale efficace.</p>
+
+      <h3>2) Stratégie de contenu complémentaire</h3>
+      <p>Créez du contenu qui se complète parfaitement : articles approfondis sur votre site, publications courtes et engageantes sur GMB, liens croisés stratégiques entre les deux canaux. Cette approche maximise votre visibilité et votre autorité dans votre secteur.</p>
+
+      <h3>3) Optimisation technique coordonnée</h3>
+      <p>Optimisez votre site pour les recherches locales avec du schema markup approprié, des données structurées, une optimisation mobile parfaite et une intégration Google Business Profile. Ces éléments techniques renforcent mutuellement vos deux canaux.</p>
+
+      <h3>4) Mesure des performances globales</h3>
+      <p>Surveillez les métriques des deux canaux : vues et actions GMB, trafic et conversions site web, ROI global de votre stratégie digitale. Cette vue d'ensemble vous permet d'ajuster votre approche selon les performances réelles.</p>
+
+      <h2>Quand privilégier GMB en priorité</h2>
+      <p>Concentrez-vous d'abord sur GMB si vous avez un budget limité, une activité très locale, ou un besoin urgent de résultats rapides. GMB offre le meilleur retour sur investissement pour les entreprises locales qui cherchent une visibilité immédiate avec un investissement minimal.</p>
+
+      <h2>Quand investir prioritairement dans un site web</h2>
+      <p>Privilégiez le développement d'un site web si vous visez un marché plus large, avez besoin de fonctionnalités complexes, vendez en ligne, ou souhaitez établir une autorité forte dans votre domaine. Un site web est indispensable pour les stratégies de croissance à long terme.</p>
+
+      <h2>Plan d'investissement progressif recommandé</h2>
+      <p>Commencez par optimiser complètement votre GMB pour obtenir des résultats rapides et mesurables. Une fois cette base solide établie, investissez progressivement dans un site web optimisé pour le long terme. Cette approche progressive maximise votre ROI à chaque étape.</p>
+
+      <h2>Erreurs courantes à éviter</h2>
+      <p>Ne négligez jamais l'un des deux canaux au profit de l'autre. Évitez les informations contradictoires entre GMB et site web. Ne sous-estimez pas l'importance de la cohérence de votre message et de votre identité visuelle. Ne mesurez pas les performances de manière isolée sans considérer l'impact global.</p>
+
+      <h2>Conclusion : l'approche hybride optimale</h2>
+      <p>La stratégie la plus efficace combine intelligemment GMB et site web : GMB pour la visibilité locale immédiate et les conversions directes, site web pour la crédibilité, l'autorité et les conversions approfondies. Cette approche hybride maximise votre présence digitale et votre impact commercial. L'investissement dans les deux canaux, coordonné et cohérent, génère des résultats supérieurs à la somme des parties.</p>
+
+      <p><strong>Vous hésitez entre GMB et site web ?</strong> <a href="https://calendly.com/sabriseo19/audit-gmb" target="_blank" rel="noopener noreferrer" style="color: #3b82f6; text-decoration: underline;">Obtenez votre audit gratuit</a> et découvrez la stratégie optimale pour votre entreprise selon votre secteur et vos objectifs spécifiques.</p>
     `,
     author: "Sabri SEO",
-    date: "2023-12-28",
+    date: "2025-09-28",
     readTime: "10 min",
     category: "Stratégie",
     featured: false,
     slug: "google-my-business-vs-site-web-referencement-local"
-  }
+  },
+  {
+    id: 6,
+    title: "Google My Business : Tout savoir pour optimiser sa visibilité locale",
+    excerpt: "Découvrez tout ce qu'il faut savoir sur Google My Business : son histoire, ses avantages, comment l'utiliser efficacement et pourquoi il est vital pour les entreprises locales. Guide complet par les experts de Visibilité Locale.",
+    content: `
+      <h2>Qu'est-ce que Google My Business ? (Réponse rapide pour les pressés)</h2>
+      <p><strong>Google My Business (GMB)</strong> est un service gratuit de Google qui permet aux entreprises de gérer leur présence en ligne sur Google Search et Google Maps. En créant une fiche d'établissement, vous augmentez votre visibilité locale, attirez plus de clients, recueillez des avis, et affichez vos informations essentielles (adresse, horaires, numéro, site web, etc.).</p>
+
+      <h2>Introduction</h2>
+      <p>Dans un monde où la visibilité locale est devenue un levier stratégique pour les entreprises, Google My Business s'impose comme un outil incontournable. Aujourd'hui, plus de 90 % des consommateurs utilisent Google pour trouver des entreprises locales, et c'est là que GMB entre en jeu. En tant qu'expert SEO pour l'agence <strong>Visibilité Locale</strong>, je vous propose un guide ultra complet pour tout savoir sur cet outil : son histoire, ses avantages, comment l'utiliser efficacement et pourquoi il est vital pour les entreprises locales.</p>
+
+      <h2>D'où vient Google My Business ?</h2>
+      
+      <h3>Une évolution des outils locaux de Google</h3>
+      <p>Avant l'apparition de GMB, Google avait lancé successivement plusieurs outils pour les entreprises locales : Google Local (2004), Google Maps Business Listings, puis Google Places en 2010. Cependant, chacun de ces services fonctionnait de manière relativement isolée, ce qui créait des doublons, des incohérences et une complexité pour les entreprises souhaitant gérer leur présence en ligne. En 2014, Google décide de regrouper ces outils sous une même interface : <strong>Google My Business</strong>.</p>
+
+      <h3>Objectifs de Google</h3>
+      <p>Google a créé GMB pour améliorer la pertinence des résultats locaux et offrir une solution simple aux professionnels. L'objectif était de donner aux entreprises locales un espace pour être visibles dans les recherches géolocalisées, interagir avec leurs clients via les avis et les messages, mettre à jour leurs informations rapidement, apparaître sur Google Maps et dans le "Local Pack".</p>
+      
+      <p>Aujourd'hui, GMB est devenu un pilier du référencement local et un véritable levier de croissance pour les TPE, PME, commerces, artisans, professions libérales et même les franchises.</p>
+
+      <h2>Quelle est la différence entre GMB et le SEO classique ?</h2>
+      <p>Le SEO classique (Search Engine Optimization) repose sur l'optimisation de votre site internet pour qu'il soit bien positionné dans les résultats naturels de Google. Il s'appuie sur de nombreux critères : la structure du site, les mots-clés, les backlinks, la qualité du contenu, etc.</p>
+      
+      <p>Google My Business, lui, agit à un autre niveau : celui de la <strong>recherche locale</strong>. Il permet d'afficher une fiche entreprise directement sur Google Maps ou dans le bloc local (appelé "Local Pack") lorsqu'un utilisateur cherche un produit ou service à proximité. Il est donc <strong>complémentaire</strong> au SEO traditionnel.</p>
+
+      <h2>Comment fonctionne Google My Business ?</h2>
+      
+      <h3>Créer et valider sa fiche</h3>
+      <p>Pour utiliser GMB, il faut : avoir un compte Google, se rendre sur Google Business Profile, rechercher son entreprise ou en créer une nouvelle, saisir les informations, valider la fiche via une vérification (par courrier, téléphone ou email). Une fois validée, vous avez accès à un tableau de bord pour gérer votre présence en ligne.</p>
+
+      <h3>Informations importantes à renseigner</h3>
+      <p>Pour tirer pleinement parti de GMB, il est indispensable de renseigner : le nom exact de l'entreprise, l'adresse physique, le numéro de téléphone local, les horaires, des photos, les catégories d'activité, une description claire.</p>
+
+      <h2>Pourquoi Google My Business est un outil vital pour les entreprises locales ?</h2>
+      
+      <h3>1. Visibilité maximale sur Google Maps</h3>
+      <p>Lorsqu'un internaute cherche un produit ou un service près de chez lui, Google affiche en priorité les fiches GMB sur Maps et dans le Local Pack.</p>
+
+      <h3>2. Canal de conversion directe</h3>
+      <p>Votre fiche permet aux internautes d'appeler, demander un itinéraire, réserver, envoyer un message ou visiter le site web, ce qui en fait un canal de conversion très puissant.</p>
+
+      <h3>3. Amélioration de la e-réputation</h3>
+      <p>Les avis clients influencent directement la confiance des internautes. Répondre à ces avis, même négatifs, est une preuve de professionnalisme.</p>
+
+      <h3>4. Statistiques précieuses</h3>
+      <p>Vous pouvez suivre les performances de votre fiche : vues, requêtes, clics, appels, demandes d'itinéraire, ce qui permet d'ajuster votre stratégie.</p>
+
+      <h2>Comment optimiser efficacement sa fiche Google My Business ?</h2>
+      <p>Publiez régulièrement des posts, ajoutez des photos de qualité, collectez des avis vérifiés, insérez des mots-clés locaux dans la description, utilisez des liens traçables (UTM), répondez à toutes les questions posées par les internautes.</p>
+
+      <h2>Foire aux questions sur Google My Business</h2>
+      
+      <h3>Google My Business est-il gratuit ?</h3>
+      <p>Oui, totalement gratuit.</p>
+
+      <h3>Est-ce utile même si j'ai déjà un site web ?</h3>
+      <p>Oui, GMB complète votre SEO classique en attirant du trafic local directement via Google.</p>
+
+      <h3>Je n'ai pas de local physique, puis-je l'utiliser ?</h3>
+      <p>Oui, pour les professionnels itinérants ou en ligne, il est possible de créer une fiche sans afficher d'adresse.</p>
+
+      <h3>Combien d'avis faut-il pour être bien classé ?</h3>
+      <p>Il n'y a pas de nombre précis, mais la régularité, la qualité et la réponse aux avis comptent beaucoup.</p>
+
+      <h3>Est-ce que je peux avoir plusieurs fiches ?</h3>
+      <p>Oui, si vous avez plusieurs adresses physiques, vous pouvez avoir une fiche par établissement.</p>
+
+      <h3>Est-ce que GMB influence le référencement naturel de mon site ?</h3>
+      <p>Oui, de façon indirecte, car il renforce votre visibilité locale et votre autorité.</p>
+
+      <h2>Conclusion</h2>
+      <p>Google My Business n'est pas une option : c'est un <strong>outil indispensable</strong> pour toute entreprise locale. Il permet d'être visible, crédible, et accessible, tout en renforçant l'engagement client. Chez <strong>Visibilité Locale</strong>, nous vous accompagnons pas à pas pour transformer votre fiche GMB en un véritable levier de croissance.</p>
+
+      <p><strong>Vous avez besoin d'un audit ou d'une stratégie personnalisée ?</strong> <a href="https://calendly.com/sabriseo19/audit-gmb" target="_blank" rel="noopener noreferrer" style="color: #3b82f6; text-decoration: underline;">Réservez votre audit gratuit</a> et découvrez comment développer votre visibilité locale avec impact.</p>
+    `,
+    author: "Sabri SEO",
+    date: "2025-10-18",
+    readTime: "12 min",
+    category: "Guide",
+    featured: true,
+    slug: "google-my-business-tout-savoir-optimiser-visibilite-locale"
+  },
+  {
+    id: 7,
+    title: "Les 7 Erreurs Mortelles qui Détruisent Votre Visibilité Google My Business",
+    excerpt: "Découvrez les 7 erreurs les plus destructrices pour votre présence Google My Business et comment les éviter pour dominer les résultats locaux.",
+    content: `
+      <h2>Introduction</h2>
+      <p>Google My Business (GMB) est un levier puissant pour améliorer votre visibilité locale. Mais encore faut-il l'utiliser correctement. Une fiche mal optimisée, ou pire, négligée, peut vous faire passer sous le radar de vos clients potentiels. En tant qu'agence spécialisée en visibilité locale, nous avons identifié les 7 erreurs les plus courantes et les plus destructrices pour votre présence sur Google. Les éviter, c'est vous assurer une place de choix dans les résultats locaux.</p>
+  
+      <h2>Ne pas revendiquer ou valider sa fiche</h2>
+      <p>Cela peut paraître évident, mais de nombreuses entreprises laissent leur fiche non validée. Cela signifie que vous n'avez <strong>aucun contrôle</strong> sur les informations affichées, et surtout que <strong>vous n'apparaissez pas dans les résultats de recherche locaux</strong> de manière optimale. Sans validation, impossible de publier, de répondre aux avis ou d'accéder aux statistiques. C'est comme laisser votre vitrine fermée en plein centre-ville.</p>
+  
+      <h2>Laisser des informations incohérentes ou incomplètes</h2>
+      <p>Nom, adresse, téléphone, horaires... tous ces éléments doivent être <strong>exactement identiques</strong> sur tous les supports (site, annuaires, réseaux sociaux). Google déteste les incohérences et les sanctionne en rabaissant votre fiche dans les résultats. De plus, des horaires obsolètes ou un mauvais numéro peuvent vous faire perdre des clients prêts à acheter.</p>
+  
+      <h2>Ignorer les avis clients</h2>
+      <p>Les avis sont l'épine dorsale de votre réputation en ligne. Ne pas y répondre (surtout aux négatifs) envoie un message clair : vous ne vous souciez pas de vos clients. Répondre avec professionnalisme, même en cas de critique, montre que vous êtes présent et réactif. Et n'oubliez pas : plus vous avez d'avis positifs récents, plus vous grimpez dans les résultats.</p>
+  
+      <h2>Ne pas ajouter de photos régulièrement</h2>
+      <p>Google favorise les fiches actives et visuelles. Des photos anciennes, floues, ou absentes, font fuir les utilisateurs. Montrez vos produits, vos locaux, votre équipe. Une fiche avec des visuels engageants inspire confiance et augmente le taux de clics. Pensez à publier des photos <strong>au moins une fois par mois</strong>.</p>
+  
+      <h2>Ne pas utiliser les publications Google</h2>
+      <p>Les publications GMB permettent de mettre en avant vos offres, événements ou nouveautés. Ne pas les utiliser, c'est se priver d'un espace gratuit pour capter l'attention de vos visiteurs. Un post par semaine suffit pour envoyer un signal fort à Google : votre entreprise est <strong>vivante</strong>.</p>
+  
+      <h2>Mal choisir sa catégorie principale</h2>
+      <p>La catégorie que vous choisissez définit votre classement. Un mauvais choix peut vous rendre invisible aux yeux de vos prospects. Soyez spécifique et pertinent : préférez "coiffeur afro" à "salon de coiffure", si cela reflète votre spécialité. Google utilise cette donnée pour comprendre ce que vous proposez, soyez stratégique.</p>
+  
+      <h2>Ne pas analyser les statistiques GMB</h2>
+      <p>Chaque fiche donne accès à des statistiques précieuses : nombre de vues, requêtes tapées, actions effectuées (clics, appels, demandes d'itinéraire). Ne pas les consulter, c'est avancer à l'aveugle. Analysez ces données pour ajuster vos horaires, vos descriptions ou vos publications. Le pilotage par les données est la clé du succès local.</p>
+  
+      <h2>Conclusion</h2>
+      <p>Votre fiche Google My Business est votre vitrine numérique la plus puissante. Mais mal utilisée, elle peut devenir un frein à votre croissance. Évitez ces 7 erreurs mortelles et transformez votre présence locale en un véritable générateur de clients. Chez <strong>Visibilité Locale</strong>, nous vous aidons à optimiser votre fiche pour que chaque recherche locale devienne une opportunité.</p>
+  
+      <p><strong>Besoin d'un audit gratuit de votre fiche Google My Business ?</strong> <a href="https://calendly.com/sabriseo19/audit-gmb" target="_blank" rel="noopener noreferrer" style="color: #3b82f6; text-decoration: underline;">Contactez-nous dès maintenant</a> pour recevoir votre diagnostic personnalisé.</p>
+    `,
+    author: "Sabri SEO",
+    date: "2025-10-20",
+    readTime: "6 min",
+    category: "Erreurs",
+    featured: true,
+    slug: "7-erreurs-mortelles-visibilite-google-my-business"
+  },
+
 ];
+
+
+
+
+
+
+
 
 // Fonction utilitaire pour trouver un article par slug
 export const getArticleBySlug = (slug: string): BlogArticle | undefined => {
@@ -671,3 +372,5 @@ export const getFeaturedArticles = (): BlogArticle[] => {
 export const getAllArticles = (): BlogArticle[] => {
   return blogArticles;
 };
+
+

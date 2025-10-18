@@ -5,18 +5,18 @@ import { Heart, Target, Shield, TrendingUp, Users, Award, Clock } from "lucide-r
 const values = [
   {
     icon: Heart,
-    title: "Accompagnement Humain et Personnalisé",
-    description: "Nous prenons le temps d'écouter vos objectifs et de comprendre votre marché local. Pas de jargon technique incompréhensible : nous expliquons chaque action SEO dans un langage clair et accessible. Une relation de confiance basée sur l'échange constructif.",
+    title: "On vous explique tout simplement",
+    description: "On prend le temps d'écouter ce que vous voulez pour votre commerce. On vous explique tout ce qu'on fait dans des mots simples, sans termes compliqués. Vous comprenez exactement ce qui se passe.",
   },
   {
     icon: Target,
-    title: "Engagement Total pour Vos Résultats",
-    description: "Nous ne livrons pas une fiche optimisée puis disparaissons. Notre accompagnement se poursuit jusqu'à l'atteinte de vos objectifs de visibilité locale. Votre succès sur Google Maps est notre priorité absolue, pas juste une prestation de plus.",
+    title: "On vous lâche pas tant que ça marche pas",
+    description: "On ne fait pas juste le boulot et on disparaît. On reste avec vous jusqu'à ce que vous ayez vraiment plus de clients. Votre réussite c'est ce qui compte pour nous, pas juste cocher des cases.",
   },
   {
     icon: Shield,
-    title: "Transparence Totale et Reporting Détaillé",
-    description: "Devis détaillé sans frais cachés. Audit initial complet avec recommandations précises. Rapports mensuels de performance avec KPIs clairs (vues, clics, appels). Vous êtes informé de chaque optimisation et de son impact sur votre référencement local.",
+    title: "Tout est clair, pas de surprise",
+    description: "Prix clair dès le début, pas de frais cachés. On vous montre exactement ce qu'on fait et les résultats chaque mois (combien de gens vous ont vu, combien ont cliqué, combien ont appelé). Vous savez toujours où vous en êtes.",
   },
 ];
 
@@ -24,26 +24,26 @@ const stats = [
   {
     icon: TrendingUp,
     value: "+50K",
-    label: "Clics obtenus",
-    description: "Nombre total de clics générés pour nos clients au cours des 6 derniers mois.",
+    label: "Personnes qui ont cliqué",
+    description: "C'est le nombre de personnes qu'on a amené vers nos clients en 6 mois.",
   },
   {
     icon: Award,
-    value: "+100",
-    label: "Projets réalisés",
-    description: "De la création de fiches GMB à l'optimisation complète.",
+    value: "+500",
+    label: "Commerces aidés",
+    description: "Restaurants, salons, boutiques, artisans... on les a tous aidés.",
   },
   {
     icon: Users,
     value: "100%",
-    label: "Clients satisfaits",
-    description: "Votre satisfaction est et restera notre priorité.",
+    label: "Clients contents",
+    description: "Votre satisfaction c'est notre priorité numéro 1.",
   },
   {
     icon: Clock,
     value: "+2",
     label: "Ans d'expérience",
-    description: "Une expertise reconnue dans le référencement local.",
+    description: "On fait ça tous les jours depuis plus de 2 ans.",
   },
 ];
 
@@ -53,18 +53,18 @@ const WhyUs = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            Pourquoi Choisir Notre Agence Google My Business ?
+            Pourquoi nous choisir ?
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Une <strong>agence spécialisée en référencement local</strong> qui rend le SEO local accessible à toutes les entreprises. <strong>+500 fiches GMB optimisées</strong>, +2 ans d'expertise pure en <strong>optimisation Google My Business</strong>.
+            On aide les petits commerces à être trouvés sur Google. <strong>Plus de 500 commerces aidés</strong>, plus de 2 ans d'expérience à faire ce qu'on fait. On sait comment ça marche et on vous aide vraiment.
           </p>
-          <Button 
-            variant="hero" 
-            size="xl" 
+          <Button
+            variant="hero"
+            size="xl"
             className="mt-6"
             onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
           >
-            Nous contacter
+            Je veux être contacté
           </Button>
         </div>
 

@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              GMB Expert
+              Visibilité Locale
             </h3>
             <p className="text-background/70 mb-4">
               Votre partenaire pour dominer les recherches locales sur Google
@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-background/20 pt-8 text-center text-background/70">
-          <p>&copy; {new Date().getFullYear()} GMB Expert. Tous droits réservés.</p>
+          <p>&copy; {new Date().getFullYear()} Visibilité Locale. Tous droits réservés.</p>
         </div>
       </div>
     </footer>

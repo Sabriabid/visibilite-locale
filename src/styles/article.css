@@ -1,22 +1,12 @@
 /* Styles personnalisés pour les articles de blog */
 
-.article-content {
-  line-height: 1.8;
-}
+.article-content { line-height: 1.8; }
 
-.article-content h2 {
-  scroll-margin-top: 100px;
-  letter-spacing: -0.02em;
-}
+.article-content h2 { scroll-margin-top: 100px; letter-spacing: -0.02em; font-weight: 800; }
 
-.article-content h3 {
-  scroll-margin-top: 100px;
-  letter-spacing: -0.01em;
-}
+.article-content h3 { scroll-margin-top: 100px; letter-spacing: -0.01em; font-weight: 700; }
 
-.article-content h4 {
-  scroll-margin-top: 100px;
-}
+.article-content h4 { scroll-margin-top: 100px; font-weight: 600; }
 
 .article-content p {
   text-align: justify;

@@ -5,23 +5,23 @@ import { TrendingUp, Award, Clock, MessageSquare } from "lucide-react";
 const benefits = [
   {
     icon: TrendingUp,
-    title: "Visibilité Immédiate sur Google Maps",
-    description: "Google favorise GMB : apparaissez instantanément dans le Local Pack (les 3 premiers résultats sur Google Maps) et dominez les recherches de type 'près de moi'. Plus visible qu'un site web classique.",
+    title: "Vos clients vous trouvent en premier",
+    description: "Quand quelqu'un cherche 'coiffeur près de moi', 'restaurant Paris' ou 'avocat Lyon', vous apparaissez dans les 3 premiers résultats sur Google. Résultat : plus de monde qui découvre votre commerce.",
   },
   {
     icon: Award,
-    title: "Positionnement Rapide en Première Page",
-    description: "Avec une fiche Google My Business optimisée, atteignez la première page Google en quelques semaines seulement. Bien plus rapide et efficace qu'un référencement naturel traditionnel pour capter vos clients locaux.",
+    title: "Ça marche vite",
+    description: "En quelques semaines, vous commencez à apparaître en haut de Google. Bien plus rapide que de créer un site internet ou d'attendre que les gens parlent de vous.",
   },
   {
     icon: Clock,
-    title: "Informations Accessibles 24h/24",
-    description: "Horaires d'ouverture, numéro de téléphone cliquable, itinéraire GPS, services proposés : tout est accessible en un clic. Vos clients trouvent ce qu'ils cherchent sans friction, ce qui augmente les conversions.",
+    title: "Tout est clair pour vos clients",
+    description: "Vos horaires, votre téléphone, comment venir chez vous : tout est affiché clairement. Les gens peuvent vous appeler ou venir vous voir en 1 clic, sans se poser de questions.",
   },
   {
     icon: MessageSquare,
-    title: "Interaction Client et E-Réputation",
-    description: "Avis clients, photos authentiques, questions/réponses : créez un dialogue direct avec vos prospects. Gérez votre réputation en ligne, rassurez les indécis et transformez les visiteurs en clients fidèles.",
+    title: "Des avis qui rassurent",
+    description: "Les avis 5 étoiles de vos clients satisfaits sont visibles par tout le monde. Ça rassure les nouveaux clients qui hésitent encore et ça donne envie de venir chez vous.",
   },
 ];
 
@@ -32,21 +32,21 @@ const Why = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6 animate-fade-in">
             <h2 className="text-4xl lg:text-5xl font-bold">
-              Pourquoi Optimiser Votre Fiche Google My Business ?
+              Pourquoi c'est important d'être visible sur Google ?
             </h2>
             <p className="text-2xl font-semibold">
-              Google favorise ses propres services…{" "}
-              <span className="text-primary">Profitez-en pour dominer votre marché local !</span>
+              Aujourd'hui, tout le monde cherche sur Google…{" "}
+              <span className="text-primary">Si on ne vous trouve pas, vous perdez des clients tous les jours</span>
             </p>
             <p className="text-lg text-muted-foreground">
-              <strong>Sans fiche Google My Business optimisée</strong>, vous êtes invisible pour 93% des consommateurs qui cherchent des services locaux sur Google. Pendant ce temps, vos concurrents captent VOS clients. Une <strong>fiche GMB bien optimisée</strong> vous permet de gagner en <strong>visibilité locale</strong>, en crédibilité et de convertir chaque recherche locale en opportunité commerciale.
+              <strong>Sans Google Maps bien configuré</strong>, vous êtes invisible pour 93% des gens qui cherchent des commerces comme le vôtre. Pendant ce temps, vos concurrents récupèrent VOS clients. On s'occupe de tout pour que vous soyez facile à trouver et que <strong>les gens viennent chez vous plutôt que chez la concurrence</strong>.
             </p>
-            <Button 
-              variant="hero" 
+            <Button
+              variant="hero"
               size="xl"
               onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
             >
-              Nous contacter
+              Je veux plus de clients
             </Button>
           </div>
 

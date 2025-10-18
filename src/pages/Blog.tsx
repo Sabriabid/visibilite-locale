@@ -19,7 +19,7 @@ const Blog = () => {
         <div className="container mx-auto px-4">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-4xl lg:text-6xl font-bold mb-6">
-              Blog <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">GMB Expert</span>
+              Blog <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">Visibilité Locale</span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8">
               Découvrez nos conseils d'experts pour optimiser votre visibilité locale et dominer Google My Business

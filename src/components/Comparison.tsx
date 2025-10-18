@@ -3,21 +3,21 @@ import { Button } from "@/components/ui/button";
 import { X, CheckCircle2 } from "lucide-react";
 
 const withoutGMB = [
-  "Invisible sur Google Maps et le Local Pack → vos concurrents captent VOS clients potentiels",
-  "Informations d'entreprise introuvables ou obsolètes → clients frustrés qui abandonnent",
-  "Aucun avis client visible → crédibilité zéro, prospects méfiants qui passent leur chemin",
-  "Impossible de répondre aux avis négatifs → e-réputation qui se dégrade sans contrôle",
-  "Dépendance totale au bouche-à-oreille physique → croissance très limitée et lente",
-  "Perte de 70% des opportunités locales → argent laissé sur la table chaque jour",
+  "Personne ne vous trouve sur Google → vos clients vont chez vos concurrents",
+  "Vos horaires et téléphone difficiles à trouver → les gens abandonnent et vont ailleurs",
+  "Pas d'avis visibles → les nouveaux clients n'ont pas confiance",
+  "Vous ne pouvez pas répondre aux avis négatifs → votre réputation se dégrade",
+  "Vous comptez uniquement sur le bouche-à-oreille → croissance très lente",
+  "Vous perdez 500 à 1000€ de chiffre d'affaires par mois → de l'argent qui part chez vos concurrents",
 ];
 
 const withGMB = [
-  "Visibilité maximale sur Google Maps et dans le Local Pack → clients locaux qui vous trouvent instantanément",
-  "Horaires, téléphone cliquable, itinéraire GPS, services → informations accessibles 24/7 en 1 clic",
-  "Fiche complète avec photos pro et avis 4-5 étoiles → confiance et légitimité immédiates",
-  "Gestion active des avis Google → dialogue constant avec prospects, e-réputation maîtrisée",
-  "Pilotage centralisé de votre présence locale → tout contrôlé depuis un seul tableau de bord",
-  "Chaque recherche locale devient une opportunité commerciale → conversions maximisées (appels, visites, ventes)",
+  "Les gens vous trouvent facilement sur Google → plus de monde qui vient chez vous",
+  "Tout est clair : horaires, téléphone, itinéraire → les clients vous contactent en 1 clic",
+  "Plein d'avis 5 étoiles bien visibles → les nouveaux clients ont confiance",
+  "On répond aux avis pour vous → votre réputation est bien gérée",
+  "Tout est centralisé et facile à gérer → vous gagnez du temps",
+  "Plus de clients qui vous appellent et viennent → vous gagnez plus d'argent",
 ];
 
 const Comparison = () => {
@@ -26,10 +26,10 @@ const Comparison = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            Avec ou Sans GMB : L'Impact sur Votre Visibilité Locale
+            La différence entre être invisible et être trouvé
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Une <strong>fiche Google My Business optimisée</strong> transforme radicalement votre présence locale. Comparaison concrète entre une entreprise <strong>sans fiche GMB</strong> (invisible et dépassée) et une entreprise <strong>avec fiche optimisée</strong> (visible et prospère).
+            Voici ce qui change <strong>concrètement</strong> quand on vous rend visible sur Google. La différence entre <strong>perdre des clients tous les jours</strong> et <strong>en gagner tous les jours</strong>.
           </p>
         </div>
 
@@ -37,9 +37,9 @@ const Comparison = () => {
           <Card className="border-2 border-destructive/20 animate-fade-in">
             <CardContent className="p-8 space-y-6">
               <div className="space-y-2">
-                <h3 className="text-2xl font-bold text-destructive">❌ Sans Fiche Google My Business</h3>
+                <h3 className="text-2xl font-bold text-destructive">❌ Sans nous</h3>
                 <p className="text-muted-foreground">
-                  Sans <strong>fiche Google My Business</strong>, votre entreprise est totalement <strong>invisible pour 93% des consommateurs</strong> qui cherchent des services locaux sur Google et Google Maps. Vos informations sont introuvables, votre crédibilité est nulle et vos <strong>concurrents optimisés captent tous vos prospects</strong>. Une situation catastrophique pour toute entreprise locale en 2024.
+                  Vous êtes invisible pour 93% des gens qui cherchent des commerces comme le vôtre sur Google. Vos infos sont introuvables, les clients n'ont pas confiance et vos concurrents récupèrent tous les clients à votre place. Résultat : <strong>vous perdez de l'argent tous les jours</strong>.
                 </p>
               </div>
 
@@ -66,9 +66,9 @@ const Comparison = () => {
           <Card className="border-2 border-primary/20 animate-fade-in" style={{ animationDelay: "100ms" }}>
             <CardContent className="p-8 space-y-6">
               <div className="space-y-2">
-                <h3 className="text-2xl font-bold text-primary">✅ Avec Fiche Google My Business Optimisée</h3>
+                <h3 className="text-2xl font-bold text-primary">✅ Avec nous</h3>
                 <p className="text-muted-foreground">
-                  Avec une <strong>fiche Google My Business professionnellement optimisée</strong>, vous dominez les <strong>recherches locales</strong>, apparaissez en première page Google Maps, inspirez confiance avec des avis 4-5 étoiles et facilitez l'accès à vos services. Résultat : <strong>+320% de visibilité</strong>, afflux constant de nouveaux clients locaux et <strong>croissance durable</strong> de votre chiffre d'affaires.
+                  Vous apparaissez en premier quand les gens cherchent votre type de commerce. Ils voient vos avis 5 étoiles, ils peuvent vous appeler en 1 clic. Résultat : <strong>+15 nouveaux clients par mois en moyenne</strong>, et <strong>votre chiffre d'affaires qui augmente</strong> tous les mois.
                 </p>
               </div>
 

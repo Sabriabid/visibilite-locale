@@ -7,20 +7,20 @@ import optimizationImage from "@/assets/service-optimization.jpg";
 const services = [
   {
     icon: MapPin,
-    title: "Création et Optimisation Fiche GMB",
-    description: "Création complète ou optimisation approfondie de votre fiche Google My Business. Nous adaptons chaque élément (catégories, descriptions, photos) pour maximiser votre visibilité dans les recherches locales et sur Google Maps.",
+    title: "On vous met sur Google Maps",
+    description: "On crée ou améliore votre profil Google avec de belles photos, une description claire et toutes les infos utiles. Comme ça, quand les gens vous cherchent, ils vous trouvent facilement.",
     image: visibilityImage,
   },
   {
     icon: Star,
-    title: "Gestion Professionnelle des Avis Clients",
-    description: "Stratégie complète de collecte et gestion des avis Google. Notre système éprouvé génère des évaluations 4-5 étoiles authentiques, répond aux avis négatifs et renforce votre e-réputation locale.",
+    title: "On vous aide à avoir plein d'avis 5 étoiles",
+    description: "On met en place un système simple pour que vos clients contents laissent des avis. On répond aussi aux avis négatifs pour vous. Plus vous avez d'avis positifs, plus les nouveaux clients ont confiance.",
     image: reviewsImage,
   },
   {
     icon: TrendingUp,
-    title: "Audit et Veille Concurrentielle SEO Local",
-    description: "Analyse détaillée de vos concurrents directs sur Google Maps. Nous identifions leurs faiblesses et déployons les optimisations SEO locales qu'ils négligent pour vous positionner devant eux.",
+    title: "On surveille vos concurrents",
+    description: "On regarde ce que font vos concurrents sur Google Maps et on fait en sorte que vous soyez toujours mieux placé qu'eux. Objectif : que les clients viennent chez vous plutôt que chez eux.",
     image: optimizationImage,
   },
 ];
@@ -31,10 +31,10 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-            Nos Services d'Optimisation Google My Business
+            Ce qu'on fait pour vous
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Une <strong>agence de référencement local</strong> qui vous garantit le meilleur retour sur investissement pour dominer votre secteur géographique
+            On s'occupe de tout pour que vous soyez <strong>facile à trouver sur Google</strong> et que ça vous ramène plus de clients
           </p>
         </div>
         

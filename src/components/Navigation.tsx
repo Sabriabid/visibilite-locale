@@ -22,7 +22,7 @@ const Navigation = () => {
             to="/" 
             className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent hover:opacity-80 transition-opacity cursor-pointer"
           >
-            GMB Expert
+            Visibilité Locale
           </Link>
 
           {/* Desktop Menu */}
@@ -49,7 +49,11 @@ const Navigation = () => {
             <Button 
               variant="hero" 
               size="lg"
-              onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
+              className="cursor-pointer"
+              onClick={() => {
+                console.log('Bouton "Recevoir mon devis" cliqué');
+                window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank');
+              }}
             >
               Recevoir mon devis
             </Button>
@@ -92,8 +96,11 @@ const Navigation = () => {
             <Button 
               variant="hero" 
               size="lg" 
-              className="w-full"
-              onClick={() => window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank')}
+              className="w-full cursor-pointer"
+              onClick={() => {
+                console.log('Bouton mobile "Recevoir mon devis" cliqué');
+                window.open('https://calendly.com/sabriseo19/audit-gmb', '_blank');
+              }}
             >
               Recevoir mon devis
             </Button>

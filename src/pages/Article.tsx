@@ -6,12 +6,41 @@ import Footer from "@/components/Footer";
 import { getArticleBySlug } from "@/data/blogArticles";
 import "@/styles/article.css";
 
-// Fonction pour nettoyer et formater le HTML
+// Fonction pour nettoyer et normaliser le HTML des articles
+// - Convertit les listes (ul/li) en paragraphes pour une lecture plus naturelle
+// - Supprime les nœuds vides et espaces superflus
 const cleanHTML = (html: string): string => {
-  return html
-    .trim()
-    .replace(/^\s+/gm, '') // Supprime les espaces au début de chaque ligne
-    .replace(/\n\s*\n/g, '\n'); // Supprime les lignes vides multiples
+  const trimmed = html.trim();
+  if (typeof window === 'undefined') return trimmed; // sécurité (non-SSR ici)
+
+  const container = document.createElement('div');
+  container.innerHTML = trimmed;
+
+  // Convertir toutes les listes en paragraphes successifs
+  const uls = Array.from(container.querySelectorAll('ul'));
+  for (const ul of uls) {
+    const parent = ul.parentElement;
+    if (!parent) continue;
+    const fragment = document.createDocumentFragment();
+    const items = Array.from(ul.querySelectorAll(':scope > li'));
+    for (const li of items) {
+      const p = document.createElement('p');
+      p.innerHTML = li.innerHTML;
+      fragment.appendChild(p);
+    }
+    parent.replaceChild(fragment as unknown as Node, ul);
+  }
+
+  // Supprimer les paragraphes vides
+  const paragraphs = Array.from(container.querySelectorAll('p'));
+  for (const p of paragraphs) {
+    if (!p.textContent || p.textContent.trim() === '') {
+      p.remove();
+    }
+  }
+
+  // Normaliser les retours à la ligne multiples dans le HTML final
+  return container.innerHTML.replace(/\n\s*\n/g, '\n').trim();
 };
 
 const Article = () => {
@@ -64,7 +93,7 @@ const Article = () => {
                 <span>{article.date}</span>
               </div>
               
-              <h1 className="text-4xl lg:text-5xl font-bold leading-tight">
+              <h1 className="text-4xl lg:text-5xl font-extrabold leading-tight">
                 {article.title}
               </h1>
               
@@ -96,7 +125,7 @@ const Article = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <article 
-              className="article-content prose prose-lg max-w-none 
+              className="article-content prose prose-gray prose-headings:font-bold prose-headings:tracking-tight prose-lg max-w-none 
                 prose-headings:font-bold prose-headings:text-foreground 
                 prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:pb-4 prose-h2:border-b-2 prose-h2:border-primary/20
                 prose-h3:text-2xl prose-h3:mt-10 prose-h3:mb-5 prose-h3:text-primary prose-h3:font-semibold
