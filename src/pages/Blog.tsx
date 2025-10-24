@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { getFeaturedArticles, getAllArticles } from "@/data/blogArticles";
+import { BreadcrumbStructuredData } from "@/components/StructuredData";
+import { ItemListStructuredData } from "@/components/AdvancedStructuredData";
 
 const Blog = () => {
   const featuredArticles = getFeaturedArticles();
@@ -12,6 +14,19 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen">
+      <BreadcrumbStructuredData
+        items={[
+          { name: "Accueil", url: "https://visibilite-locale.fr" },
+          { name: "Blog", url: "https://visibilite-locale.fr/blog" }
+        ]}
+      />
+      <ItemListStructuredData
+        items={allArticles.map((article, index) => ({
+          position: index + 1,
+          name: article.title,
+          url: `https://visibilite-locale.fr/article/${article.slug}`
+        }))}
+      />
       <Navigation />
       
       {/* Hero Section */}

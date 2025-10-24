@@ -4,6 +4,8 @@ import { Link, useParams } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { getArticleBySlug } from "@/data/blogArticles";
+import { BlogPostStructuredData, BreadcrumbStructuredData } from "@/components/StructuredData";
+import { HowToStructuredData } from "@/components/AdvancedStructuredData";
 import "@/styles/article.css";
 
 // Fonction pour nettoyer et normaliser le HTML des articles
@@ -66,10 +68,73 @@ const Article = () => {
     );
   }
 
+  // Ajout conditionnel du schéma HowTo pour l'article principal
+  const isHowToArticle = article.slug === "optimiser-fiche-google-my-business-2024";
+
   return (
     <div className="min-h-screen">
+      <BlogPostStructuredData
+        title={article.title}
+        description={article.excerpt}
+        author={article.author}
+        datePublished={article.date}
+        dateModified={article.date}
+        slug={article.slug}
+      />
+      <BreadcrumbStructuredData
+        items={[
+          { name: "Accueil", url: "https://visibilite-locale.fr" },
+          { name: "Blog", url: "https://visibilite-locale.fr/blog" },
+          { name: article.title, url: `https://visibilite-locale.fr/article/${article.slug}` }
+        ]}
+      />
+      {isHowToArticle && (
+        <HowToStructuredData
+          name="Comment Optimiser Votre Fiche Google My Business en 5 Étapes"
+          description="Guide complet pour optimiser votre fiche GMB et dominer les résultats locaux en suivant une méthode éprouvée"
+          totalTime="PT45M"
+          supply={[
+            "Compte Google",
+            "Fiche Google My Business validée",
+            "Photos professionnelles de votre établissement",
+            "Logo de votre entreprise"
+          ]}
+          tool={[
+            "Google My Business Dashboard",
+            "Google Search Console",
+            "Google Analytics"
+          ]}
+          steps={[
+            {
+              name: "Normaliser vos informations NAP",
+              text: "Vérifiez que le NAP (Nom, Adresse, Téléphone) et l'URL soient identiques partout: site, réseaux sociaux, annuaires. Une incohérence mine la confiance de Google et des utilisateurs. Ajoutez des horaires détaillés, y compris jours fériés, choisissez une catégorie principale précise et une description naturelle qui reflète votre activité réelle.",
+              url: "https://visibilite-locale.fr/article/optimiser-fiche-google-my-business-2024"
+            },
+            {
+              name: "Valoriser par l'image",
+              text: "Les photos déclenchent l'attention et la confiance. Publiez des visuels authentiques de l'extérieur, de l'intérieur, de l'équipe et des produits. Préférez la lumière naturelle, des cadrages nets, des légendes descriptives et renouvelez le contenu visuel tous les mois pour rester actuel.",
+              url: "https://visibilite-locale.fr/article/optimiser-fiche-google-my-business-2024"
+            },
+            {
+              name: "Activer les avis comme preuve sociale",
+              text: "Sollicitez des avis après des expériences positives et répondez systématiquement, même aux retours mitigés. Mentionnez le contexte, remerciez, expliquez, proposez une solution. Cette dynamique améliore la confiance, fait remonter votre fiche et rassure les hésitants.",
+              url: "https://visibilite-locale.fr/article/gestion-avis-google-my-business-strategie-complete"
+            },
+            {
+              name: "Publier régulièrement",
+              text: "Les publications nourrissent la pertinence et montrent que l'entreprise est active. Annoncez vos offres, événements, nouveautés, réalisations. Un format simple fonctionne très bien: une image claire, un court texte utile et un appel à l'action orienté résultat.",
+              url: "https://visibilite-locale.fr/article/strategie-contenu-gmb-publications-convertissent"
+            },
+            {
+              name: "Exploiter les fonctionnalités avancées",
+              text: "Activez la messagerie si vous pouvez répondre rapidement, structurez vos services, ajoutez vos produits avec descriptions et prix, et complétez les attributs pertinents (accessibilité, paiement, terrasse, etc.). Ce niveau de détail accélère le choix côté utilisateur et clarifie votre proposition de valeur pour Google.",
+              url: "https://visibilite-locale.fr/article/optimiser-fiche-google-my-business-2024"
+            }
+          ]}
+        />
+      )}
       <Navigation />
-      
+
       {/* Article Header */}
       <section className="relative py-24 bg-gradient-to-br from-background via-background to-muted pt-20">
         <div className="container mx-auto px-4">

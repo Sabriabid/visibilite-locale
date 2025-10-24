@@ -10,10 +10,23 @@ import Results from "@/components/Results";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import {
+  OrganizationStructuredData,
+  WebsiteStructuredData,
+  FAQStructuredData,
+  ServiceStructuredData
+} from "@/components/StructuredData";
+import { PersonStructuredData, ReviewStructuredData } from "@/components/AdvancedStructuredData";
+import { getAllTestimonials } from "@/data/testimonials";
 
 const Index = () => {
+  // Ne pas charger les schémas déjà dans index.html pour éviter les doublons
+  // OrganizationStructuredData, WebsiteStructuredData et FAQStructuredData sont dans index.html
+
   return (
     <div className="min-h-screen">
+      <ServiceStructuredData />
+      <PersonStructuredData />
       <Navigation />
       <Hero />
       <Why />
