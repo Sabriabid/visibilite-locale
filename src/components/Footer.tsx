@@ -1,10 +1,11 @@
 import { Mail, Phone, MapPin } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-12">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-3 gap-8 mb-8">
+        <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               Visibilité Locale
@@ -13,7 +14,25 @@ const Footer = () => {
               Votre partenaire pour dominer les recherches locales sur Google
             </p>
           </div>
-          
+
+          <div>
+            <h4 className="font-semibold mb-4">Liens Rapides</h4>
+            <div className="space-y-2 text-background/70">
+              <Link to="/" className="block hover:text-primary transition-colors">
+                Accueil
+              </Link>
+              <a href="/#services" className="block hover:text-primary transition-colors">
+                Nos Services
+              </a>
+              <a href="/#pricing" className="block hover:text-primary transition-colors">
+                Tarifs
+              </a>
+              <Link to="/blog" className="block hover:text-primary transition-colors">
+                Blog SEO Local
+              </Link>
+            </div>
+          </div>
+
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
             <div className="space-y-3 text-background/70">
@@ -31,7 +50,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          
+
           <div>
             <h4 className="font-semibold mb-4">Horaires</h4>
             <div className="space-y-2 text-background/70">

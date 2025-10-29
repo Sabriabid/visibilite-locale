@@ -33,8 +33,13 @@ const Services = () => {
           <h2 className="text-4xl lg:text-5xl font-bold mb-4">
             Ce qu'on fait pour vous
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-6">
             On s'occupe de tout pour que vous soyez <strong>facile à trouver sur Google</strong> et que ça vous ramène plus de clients
+          </p>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            Notre expertise en <strong>référencement local</strong> et <strong>optimisation Google My Business</strong> vous permet de dominer votre marché local.
+            Que vous soyez un commerce de proximité, un restaurant, un salon de beauté ou un cabinet médical,
+            nous mettons en place les stratégies qui fonctionnent pour attirer plus de clients locaux et augmenter votre chiffre d'affaires.
           </p>
         </div>
         

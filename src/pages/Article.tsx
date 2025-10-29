@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, User, ArrowLeft, Share2 } from "lucide-react";
 import { Link, useParams } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { getArticleBySlug } from "@/data/blogArticles";
@@ -73,6 +74,21 @@ const Article = () => {
 
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>{article.title} | Blog Visibilité Locale</title>
+        <meta name="description" content={article.excerpt} />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={`https://visibilite-locale.fr/article/${article.slug}`} />
+        <meta property="og:title" content={article.title} />
+        <meta property="og:description" content={article.excerpt} />
+        <meta property="og:url" content={`https://visibilite-locale.fr/article/${article.slug}`} />
+        <meta property="og:type" content="article" />
+        <meta property="article:author" content={article.author} />
+        <meta property="article:published_time" content={article.date} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={article.title} />
+        <meta name="twitter:description" content={article.excerpt} />
+      </Helmet>
       <BlogPostStructuredData
         title={article.title}
         description={article.excerpt}

@@ -7,6 +7,7 @@ import Comparison from "@/components/Comparison";
 import Process from "@/components/Process";
 import WhyUs from "@/components/WhyUs";
 import Results from "@/components/Results";
+import BlogPreview from "@/components/BlogPreview";
 import FAQ from "@/components/FAQ";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -36,6 +37,7 @@ const Index = () => {
       <Process />
       <WhyUs />
       <Results />
+      <BlogPreview />
       <FAQ />
       <CTA />
       <Footer />

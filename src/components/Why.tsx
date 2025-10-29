@@ -38,8 +38,14 @@ const Why = () => {
               Aujourd'hui, tout le monde cherche sur Google…{" "}
               <span className="text-primary">Si on ne vous trouve pas, vous perdez des clients tous les jours</span>
             </p>
-            <p className="text-lg text-muted-foreground">
+            <p className="text-lg text-muted-foreground mb-4">
               <strong>Sans Google Maps bien configuré</strong>, vous êtes invisible pour 93% des gens qui cherchent des commerces comme le vôtre. Pendant ce temps, vos concurrents récupèrent VOS clients. On s'occupe de tout pour que vous soyez facile à trouver et que <strong>les gens viennent chez vous plutôt que chez la concurrence</strong>.
+            </p>
+            <p className="text-base text-muted-foreground">
+              Le référencement local est devenu incontournable : <strong>76% des recherches locales sur mobile aboutissent à une visite en magasin dans les 24 heures</strong>.
+              Avec une fiche Google My Business optimisée, vous apparaissez dans le <strong>Local Pack</strong> (les 3 premiers résultats Google Maps),
+              vous obtenez plus d'avis positifs, et vous générez plus d'appels téléphoniques et de demandes d'itinéraire.
+              Notre méthode éprouvée sur 500+ entreprises locales vous garantit une visibilité maximale et des résultats mesurables.
             </p>
             <Button
               variant="hero"

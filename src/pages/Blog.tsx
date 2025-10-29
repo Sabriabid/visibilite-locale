@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Calendar, Clock, User, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { getFeaturedArticles, getAllArticles } from "@/data/blogArticles";
@@ -14,6 +15,19 @@ const Blog = () => {
 
   return (
     <div className="min-h-screen">
+      <Helmet>
+        <title>Blog SEO Local & GMB | Guides Google My Business</title>
+        <meta
+          name="description"
+          content="Découvrez nos guides experts sur l'optimisation Google My Business, la gestion des avis, le référencement local et les stratégies pour dominer Google Maps."
+        />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://visibilite-locale.fr/blog" />
+        <meta property="og:title" content="Blog SEO Local & GMB | Guides Google My Business" />
+        <meta property="og:description" content="Découvrez nos guides experts sur l'optimisation Google My Business, la gestion des avis, le référencement local et les stratégies pour dominer Google Maps." />
+        <meta property="og:url" content="https://visibilite-locale.fr/blog" />
+        <meta property="og:type" content="website" />
+      </Helmet>
       <BreadcrumbStructuredData
         items={[
           { name: "Accueil", url: "https://visibilite-locale.fr" },
